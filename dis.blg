@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dis.aux
+The style file: abbrv.bst
+Database file #1: MyLibrary.bib
+Warning--I didn't find a database entry for ""
+Warning--empty year in kourakis_one-dimensional_????
+You've used 39 entries,
+            2118 wiz_defined-function locations,
+            732 strings with 12947 characters,
+and the built_in function-call counts, 16236 in all, are:
+= -- 1536
+> -- 1082
+< -- 0
++ -- 438
+- -- 390
+* -- 1491
+:= -- 2812
+add.period$ -- 117
+call.type$ -- 39
+change.case$ -- 311
+chr.to.int$ -- 0
+cite$ -- 40
+duplicate$ -- 429
+empty$ -- 1010
+format.name$ -- 390
+if$ -- 3128
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 40
+newline$ -- 198
+num.names$ -- 78
+pop$ -- 244
+preamble$ -- 1
+purify$ -- 273
+quote$ -- 0
+skip$ -- 280
+stack$ -- 0
+substring$ -- 1056
+swap$ -- 39
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 154
+warning$ -- 1
+while$ -- 151
+width$ -- 41
+write$ -- 428
+(There were 2 warnings)
