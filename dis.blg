@@ -4,46 +4,49 @@ The top-level auxiliary file: dis.aux
 The style file: abbrv.bst
 Database file #1: MyLibrary.bib
 Warning--I didn't find a database entry for ""
-Warning--empty year in kourakis_one-dimensional_????
-You've used 39 entries,
+Warning--I didn't find a database entry for "kourakis_one-dimensional_2014"
+Warning--I didn't find a database entry for "kobayashi_differential_2013"
+Warning--I didn't find a database entry for "quail_tale_2012"
+Warning--empty institution in brown_reference-free_2012
+You've used 42 entries,
             2118 wiz_defined-function locations,
-            732 strings with 12947 characters,
-and the built_in function-call counts, 16236 in all, are:
-= -- 1536
-> -- 1082
-< -- 0
-+ -- 438
-- -- 390
-* -- 1491
-:= -- 2812
-add.period$ -- 117
-call.type$ -- 39
-change.case$ -- 311
+            755 strings with 13698 characters,
+and the built_in function-call counts, 17685 in all, are:
+= -- 1665
+> -- 1200
+< -- 1
++ -- 486
+- -- 434
+* -- 1638
+:= -- 3069
+add.period$ -- 126
+call.type$ -- 42
+change.case$ -- 342
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 429
-empty$ -- 1010
-format.name$ -- 390
-if$ -- 3128
+cite$ -- 43
+duplicate$ -- 461
+empty$ -- 1085
+format.name$ -- 434
+if$ -- 3399
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 40
-newline$ -- 198
-num.names$ -- 78
-pop$ -- 244
+int.to.str$ -- 42
+missing$ -- 42
+newline$ -- 213
+num.names$ -- 84
+pop$ -- 267
 preamble$ -- 1
-purify$ -- 273
+purify$ -- 301
 quote$ -- 0
-skip$ -- 280
+skip$ -- 301
 stack$ -- 0
-substring$ -- 1056
-swap$ -- 39
-text.length$ -- 0
+substring$ -- 1131
+swap$ -- 42
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 154
+type$ -- 166
 warning$ -- 1
-while$ -- 151
-width$ -- 41
-write$ -- 428
-(There were 2 warnings)
+while$ -- 162
+width$ -- 44
+write$ -- 462
+(There were 5 warnings)

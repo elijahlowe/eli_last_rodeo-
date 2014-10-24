@@ -5,6 +5,12 @@ N.~J. BERRILL.
 \newblock Studies in tunicate developnent.
 \newblock {\em Society}, 219:281--346, 1931.
 
+\bibitem{brown_reference-free_2012}
+C.~T. Brown, A.~Howe, Q.~Zhang, A.~B. Pyrkosz, and T.~H. Brom.
+\newblock A reference-free algorithm for computational normalization of shotgun
+  sequencing data.
+\newblock {arXiv} e-print 1203.4802, Mar. 2012.
+
 \bibitem{conklin_organization_1905}
 E.~G. Conklin.
 \newblock {\em The organization and cell-lineage of the ascidian egg}.
@@ -40,6 +46,11 @@ A.~Di~Gregorio, R.~M. Harland, M.~Levine, and E.~S. Casey.
 \newblock Tail morphogenesis in the ascidian, ciona intestinalis, requires
   cooperation between notochord and muscle.
 \newblock {\em Developmental biology}, 244(2):385--95, Apr. 2002.
+
+\bibitem{glenn_field_2011}
+T.~C. Glenn.
+\newblock Field guide to next-generation {DNA} sequencers.
+\newblock {\em Molecular Ecology Resources}, 11(5):759--769, Sept. 2011.
 
 \bibitem{hashimoto_transcription_2011}
 H.~Hashimoto, T.~Enomoto, G.~Kumano, and H.~Nishida.
@@ -88,13 +99,6 @@ D.~Jiang, E.~M. Munro, W.~C. Smith, S.~Barbara, and F.~Harbor.
 \newblock Ascidian prickle regulates both mediolateral and anterior-posterior
   cell polarity of notochord cells.
 \newblock {\em Current biology}, 15:79--85, 2005.
-
-\bibitem{kourakis_one-dimensional_????}
-M.~J. Kourakis, W.~Reeves, E.~Newman-Smith, B.~Maury, S.~Abdul-Wajid, and W.~C.
-  Smith.
-\newblock A one-dimensional model of {PCP} signaling: Polarized cell behavior
-  in the notochord of the ascidian ciona.
-\newblock {\em Developmental Biology}.
 
 \bibitem{kugler_evolutionary_2011}
 J.~E. Kugler, P.~Kerner, J.-M. Bouquet, D.~Jiang, and A.~Di~Gregorio.
@@ -182,6 +186,15 @@ N.~Satoh.
   genomics.
 \newblock {\em Nature reviews. Genetics}, 4(4):285--95, Apr. 2003.
 
+\bibitem{schwarz_genome_2013}
+E.~M. Schwarz, P.~K. Korhonen, B.~E. Campbell, N.~D. Young, A.~R. Jex,
+  A.~Jabbar, R.~S. Hall, A.~Mondal, A.~C. Howe, J.~Pell, A.~Hofmann, P.~R.
+  Boag, X.-Q. Zhu, T.~R. Gregory, A.~Loukas, B.~A. Williams, I.~Antoshechkin,
+  C.~T. Brown, P.~W. Sternberg, and R.~B. Gasser.
+\newblock The genome and developmental transcriptome of the strongylid nematode
+  haemonchus contortus.
+\newblock {\em Genome Biology}, 14(8):R89, Aug. 2013.
+
 \bibitem{stemple_structure_2005}
 D.~L. Stemple.
 \newblock Structure and function of the notochord: an essential organ for
@@ -235,6 +248,11 @@ M.~T. Veeman, Y.~Nakatani, C.~Hendrickson, V.~Ericson, C.~Lin, and W.~C. Smith.
 \newblock Chongmague reveals an essential role for laminin-mediated boundary
   formation in chordate convergence and extension movements.
 \newblock {\em Development (Cambridge, England)}, 135(1):33--41, Jan. 2008.
+
+\bibitem{yasuo_function_1993}
+H.~Yasuo and N.~Satoh.
+\newblock Function of vertebrate t gene.
+\newblock {\em Nature}, 364(6438):582--583, Aug. 1993.
 
 \bibitem{yasuo_ascidian_1994}
 H.~Yasuo and N.~Satoh.

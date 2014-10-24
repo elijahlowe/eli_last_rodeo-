@@ -1,12 +1,16 @@
 \contentsline {chapter}{\textbf {LIST OF TABLES}\vspace {\baselineskip }}{vi}
 \contentsline {chapter}{\textbf {LIST OF FIGURES}\vspace {\baselineskip }}{vii}
 \contentsline {chapter}{\numberline {Chapter 1}Background}{1}
-\contentsline {chapter}{\numberline {Chapter 2}Literature Review}{3}
-\contentsline {section}{\numberline {2.1}Ascidian tail development}{3}
-\contentsline {section}{\numberline {2.2}Notochord genes }{5}
-\contentsline {section}{\numberline {2.3}Hybrids}{8}
-\contentsline {section}{\numberline {2.4}Assembling and analyzing data}{8}
-\contentsline {chapter}{\numberline {Chapter 3}Measuring the metrics}{9}
-\contentsline {chapter}{\numberline {Chapter 4}Another chapter}{10}
-\contentsline {chapter}{\numberline {Chapter 5}Conclusions}{11}
-\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{12}
+\contentsline {chapter}{\numberline {Chapter 2}Literature Review}{4}
+\contentsline {section}{\numberline {2.1}Ascidian tail development}{4}
+\contentsline {section}{\numberline {2.2}Brachyury has been shown to be the }{6}
+\contentsline {section}{\numberline {2.3}Assembling and analyzing data}{8}
+\contentsline {chapter}{\numberline {Chapter 3}Genome assembly and characterization}{11}
+\contentsline {section}{\numberline {3.1}Materials and methods}{11}
+\contentsline {subsection}{\numberline {3.1.1}Genomic DNA library preparation and sequencing}{11}
+\contentsline {subsection}{\numberline {3.1.2}Genome sequence assembly}{12}
+\contentsline {section}{\numberline {3.2}Results}{13}
+\contentsline {subsection}{\numberline {3.2.1}Gene complexes}{13}
+\contentsline {chapter}{\numberline {Chapter 4}Another chapter}{14}
+\contentsline {chapter}{\numberline {Chapter 5}Conclusions}{15}
+\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{16}
