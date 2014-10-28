@@ -1,16 +1,39 @@
-\contentsline {chapter}{\textbf {LIST OF TABLES}\vspace {\baselineskip }}{vi}
-\contentsline {chapter}{\textbf {LIST OF FIGURES}\vspace {\baselineskip }}{vii}
+\contentsline {chapter}{\textbf {LIST OF TABLES}\vspace {\baselineskip }}{vii}
+\contentsline {chapter}{\textbf {LIST OF FIGURES}\vspace {\baselineskip }}{viii}
 \contentsline {chapter}{\numberline {Chapter 1}Background}{1}
 \contentsline {chapter}{\numberline {Chapter 2}Literature Review}{4}
 \contentsline {section}{\numberline {2.1}Ascidian tail development}{4}
 \contentsline {section}{\numberline {2.2}Brachyury has been shown to be the }{6}
 \contentsline {section}{\numberline {2.3}Assembling and analyzing data}{8}
-\contentsline {chapter}{\numberline {Chapter 3}Genome assembly and characterization}{11}
-\contentsline {section}{\numberline {3.1}Materials and methods}{11}
-\contentsline {subsection}{\numberline {3.1.1}Genomic DNA library preparation and sequencing}{11}
-\contentsline {subsection}{\numberline {3.1.2}Genome sequence assembly}{12}
-\contentsline {section}{\numberline {3.2}Results}{13}
-\contentsline {subsection}{\numberline {3.2.1}Gene complexes}{13}
-\contentsline {chapter}{\numberline {Chapter 4}Another chapter}{14}
-\contentsline {chapter}{\numberline {Chapter 5}Conclusions}{15}
-\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{16}
+\contentsline {chapter}{\numberline {Chapter 3}Evaluating a lightweight transcriptome assembly pipeline on two closely related ascidian species}{11}
+\contentsline {section}{\numberline {3.1}Introduction}{11}
+\contentsline {section}{\numberline {3.2}Methods}{13}
+\contentsline {subsection}{\numberline {3.2.1}Sequencing preparation}{13}
+\contentsline {subsection}{\numberline {3.2.2}Assembly protocol}{13}
+\contentsline {subsection}{\numberline {3.2.3}Pre-assembly read trimming and normalization}{14}
+\contentsline {subsection}{\numberline {3.2.4}Transcriptome assembly}{15}
+\contentsline {subsection}{\numberline {3.2.5}Gene identification}{16}
+\contentsline {subsection}{\numberline {3.2.6}Read mapping}{16}
+\contentsline {section}{\numberline {3.3}Results}{17}
+\contentsline {subsection}{\numberline {3.3.1}Digital normalization reduces the resources needed for assembly}{17}
+\contentsline {subsection}{\numberline {3.3.2}Assembly statistics varied by preprocessing approach and assembler}{19}
+\contentsline {subsection}{\numberline {3.3.3}Trinity assemblies include more low-abundance k-mers than Oases assemblies}{19}
+\contentsline {subsection}{\numberline {3.3.4}Read mapping shows high inclusion of reads in the assembled transcriptomes}{21}
+\contentsline {subsection}{\numberline {3.3.5}All assemblies recovered transcripts with high accuracy but varied completeness}{21}
+\contentsline {subsection}{\numberline {3.3.6}Both unnormalized and normalized assemblies recovered many of the same transcripts}{24}
+\contentsline {subsection}{\numberline {3.3.7}Homology search against the \textit {Ciona} proteome shows similar recovery of ascidian genes across assemblies}{24}
+\contentsline {subsection}{\numberline {3.3.8}CEGMA analysis shows high recovery of genes}{26}
+\contentsline {section}{\numberline {3.4}Discussion}{26}
+\contentsline {subsection}{\numberline {3.4.1}Transcriptome assembly accurately recovers known transcripts and many genes}{26}
+\contentsline {subsection}{\numberline {3.4.2}Digital normalization eases assembly without strongly affecting assembly content}{27}
+\contentsline {subsection}{\numberline {3.4.3}Trinity assemblies are more sensitive to low-abundance k-mers but contain no new conserved genes}{29}
+\contentsline {section}{\numberline {3.5}Conclusions}{29}
+\contentsline {chapter}{\numberline {Chapter 4}Genome assembly and characterization}{31}
+\contentsline {section}{\numberline {4.1}Materials and methods}{31}
+\contentsline {subsection}{\numberline {4.1.1}Genomic DNA library preparation and sequencing}{31}
+\contentsline {subsection}{\numberline {4.1.2}Genome sequence assembly}{32}
+\contentsline {section}{\numberline {4.2}Results}{33}
+\contentsline {subsection}{\numberline {4.2.1}Gene complexes}{33}
+\contentsline {chapter}{\numberline {Chapter 5}Another chapter}{34}
+\contentsline {chapter}{\numberline {Chapter 6}Conclusions}{35}
+\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{36}

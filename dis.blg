@@ -8,45 +8,45 @@ Warning--I didn't find a database entry for "kourakis_one-dimensional_2014"
 Warning--I didn't find a database entry for "kobayashi_differential_2013"
 Warning--I didn't find a database entry for "quail_tale_2012"
 Warning--empty institution in brown_reference-free_2012
-You've used 42 entries,
+You've used 63 entries,
             2118 wiz_defined-function locations,
-            755 strings with 13698 characters,
-and the built_in function-call counts, 17685 in all, are:
-= -- 1665
-> -- 1200
+            871 strings with 18516 characters,
+and the built_in function-call counts, 27089 in all, are:
+= -- 2540
+> -- 1871
 < -- 1
-+ -- 486
-- -- 434
-* -- 1638
-:= -- 3069
-add.period$ -- 126
-call.type$ -- 42
-change.case$ -- 342
++ -- 753
+- -- 678
+* -- 2541
+:= -- 4695
+add.period$ -- 189
+call.type$ -- 63
+change.case$ -- 527
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 461
-empty$ -- 1085
-format.name$ -- 434
-if$ -- 3399
+cite$ -- 64
+duplicate$ -- 692
+empty$ -- 1644
+format.name$ -- 678
+if$ -- 5203
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 42
-newline$ -- 213
-num.names$ -- 84
-pop$ -- 267
+int.to.str$ -- 63
+missing$ -- 63
+newline$ -- 318
+num.names$ -- 126
+pop$ -- 410
 preamble$ -- 1
-purify$ -- 301
+purify$ -- 465
 quote$ -- 0
-skip$ -- 301
+skip$ -- 455
 stack$ -- 0
-substring$ -- 1131
-swap$ -- 42
+substring$ -- 1733
+swap$ -- 63
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 166
+type$ -- 250
 warning$ -- 1
-while$ -- 162
-width$ -- 44
-write$ -- 462
+while$ -- 243
+width$ -- 65
+write$ -- 693
 (There were 5 warnings)

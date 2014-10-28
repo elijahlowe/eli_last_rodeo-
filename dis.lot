@@ -1,5 +1,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces \textbf {Digitally normalized reads.} The number of reads sequenced before and after digital normalization are shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit {M. occulta} had approximately 237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit {M. oculata} had 150 million reads and reduced by 77\% to 50 million reads. \relax }}{15}
+\contentsline {table}{\numberline {3.2}{\ignorespaces \textbf {Transcriptome metrics.} Several metrics used to assess the assembled transcriptomes. The N50, mean transcript length, total number of transcripts and total number of base pairs are listed for each transcriptomes.\relax }}{19}
+\contentsline {table}{\numberline {3.3}{\ignorespaces \textbf {Multiplicity.} The k-mer multiplicity shows uniqueness of each assembly. All k-mers with a multiplicity of one are unique. Trinity has a higher percentage of unique k-mers when comparing assemblers. The unnormalized Trinity had the highest number of unique k-mers overall.\relax }}{21}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

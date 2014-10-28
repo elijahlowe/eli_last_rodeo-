@@ -1,6 +1,6 @@
 \relax 
-\@writefile{toc}{\contentsline {chapter}{\textbf  {LIST OF TABLES}\vspace  {\baselineskip }}{vi}}
-\@writefile{toc}{\contentsline {chapter}{\textbf  {LIST OF FIGURES}\vspace  {\baselineskip }}{vii}}
+\@writefile{toc}{\contentsline {chapter}{\textbf  {LIST OF TABLES}\vspace  {\baselineskip }}{vii}}
+\@writefile{toc}{\contentsline {chapter}{\textbf  {LIST OF FIGURES}\vspace  {\baselineskip }}{viii}}
 \citation{jeffery_minireview_2002}
 \citation{berrill_studies_1931,swalla_interspecific_1990}
 \citation{satoh_ascidian_2003}
@@ -58,22 +58,103 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Assembling and analyzing data}{8}}
 \citation{kobayashi_differential_2013}
 \citation{glenn_field_2011,quail_tale_2012}
-\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 3}Genome assembly and characterization}{11}}
+\citation{wang_rna-seq:_2009}
+\citation{glenn_field_2011}
+\citation{zhang_impact_2011}
+\citation{pop_genome_2009,vinson_assembly_2005,stapley_adaptation_2010}
+\citation{vijay_challenges_2012}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 3}Evaluating a lightweight transcriptome assembly pipeline on two closely related ascidian species}{11}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Materials and methods}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Genomic DNA library preparation and sequencing}{11}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction}{11}}
+\citation{grabherr_full-length_2011}
+\citation{zerbino_velvet:_2008,schulz_oases:_2012}
+\citation{pop_genome_2009}
+\citation{haas_novo_2013}
+\citation{swalla_interspecific_1990}
+\citation{swalla_multigene_1999}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Methods}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Sequencing preparation}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Assembly protocol}{13}}
+\citation{lohse_robina:_2012,macmanes_optimal_2014}
+\citation{brown_reference-free_2012}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Pre-assembly read trimming and normalization}{14}}
+\citation{vijay_challenges_2012,grabherr_full-length_2011,schulz_oases:_2012}
+\citation{li_cd-hit:_2006}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces \textbf  {Digitally normalized reads.} The number of reads sequenced before and after digital normalization are shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit  {M. occulta} had approximately 237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit  {M. oculata} had 150 million reads and reduced by 77\% to 50 million reads. \relax }}{15}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:Table1.pdf}{{3.1}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Transcriptome assembly}{15}}
+\citation{langmead_fast_2012}
+\citation{li_sequence_2009}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Gene identification}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Read mapping}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Results}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Digital normalization reduces the resources needed for assembly}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \textbf  {Wall time and memory requirements for assemblies.} Wall time (left) in hours to complete the diginorm (DN) and raw read (RAW) assemblies for both species and assemblers. Oases assembled multiple k's, 21 $\leq $ k $\leq $ 35 opposed to Trinity that uses only a single k. This is one reason the assembly times differed. (right) Shows the memory used to assemble each of the transcriptomes. M. oculata (ocu) transcriptomes assemble in less time than M. occulta (occ) because they have fewer lanes of reads to assemble. In all cases diginorm required less time and memory to complete the assembly.\relax }}{18}}
+\newlabel{fig:time_and_memory.pdf}{{3.1}{18}}
+\citation{pop_genome_2009}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces \textbf  {Transcriptome metrics.} Several metrics used to assess the assembled transcriptomes. The N50, mean transcript length, total number of transcripts and total number of base pairs are listed for each transcriptomes.\relax }}{19}}
+\newlabel{fig:Table2.pdf}{{3.2}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Assembly statistics varied by preprocessing approach and assembler}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Trinity assemblies include more low-abundance k-mers than Oases assemblies}{19}}
+\newlabel{subfig-1:figure_2_Mocc_dist}{{3.2a}{20}}
+\newlabel{sub@subfig-1:figure_2_Mocc_dist}{{(a)}{a}}
+\newlabel{subfig-2:figure_2_Mocu_dist}{{3.2b}{20}}
+\newlabel{sub@subfig-2:figure_2_Mocu_dist}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf  {K-mer distribution.} The k-mer distribution is shown for each assembler and assembly condition, diginorm (DN) and unnormalized reads. The k-mer distribution is the coverage of a given k-mer verses how many k-mers of that coverage is incorporated in the respective assemblies. Both Oases and Trinity assemblies are shown for \nobreakspace  {}\G@refundefinedtrue \text  {\normalfont  \bfseries  ??}\GenericWarning  {               }{LaTeX Warning: Reference `fig:figure_2_Mocc_dist' on page 20 undefined} \textit  {M. occulta} k-mer distribution and \nobreakspace  {}\G@refundefinedtrue \text  {\normalfont  \bfseries  ??}\GenericWarning  {               }{LaTeX Warning: Reference `fig:figure_2_Mocu_dist' on page 20 undefined} \textit  {M. oculata} k-mer distributions. Trinity had a higher k-mer distribution for both species, reflective of the inclusion of more low abundance reads into the Trinity assemblies.\relax }}{20}}
+\newlabel{fig:k-mer_spec}{{3.2}{20}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\textit {M. occulta}}}}{20}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\textit {M. oculata}}}}{20}}
+\citation{vijay_challenges_2012,martin_next-generation_2011}
+\citation{li_sequence_2009}
+\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces \textbf  {Multiplicity.} The k-mer multiplicity shows uniqueness of each assembly. All k-mers with a multiplicity of one are unique. Trinity has a higher percentage of unique k-mers when comparing assemblers. The unnormalized Trinity had the highest number of unique k-mers overall.\relax }}{21}}
+\newlabel{fig:multiplicity}{{3.3}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Read mapping shows high inclusion of reads in the assembled transcriptomes}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}All assemblies recovered transcripts with high accuracy but varied completeness}{21}}
+\newlabel{fig:figure_3_mocc_mapping}{{\caption@xref {fig:figure_3_mocc_mapping}{ on input line 107}}{22}}
+\newlabel{fig:figure_3_mocu_mapping}{{\caption@xref {fig:figure_3_mocu_mapping}{ on input line 111}}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces \textbf  {Read mapping.} Unnormalized reads were mapped back to each of the assemblies to determine the inclusion of reads in the assembly. \nobreakspace  {}\caption@xref  {fig:figure_3_mocc_mapping}{ on input line 107}\hbox {}\textit  {M. occulta} first round of gastrulation reads (f+3), showed the lowest mapping quality for all assemblies, with the lowest being raw Oases at 48.57\%. \textit  {M. occulta} f+3 is the only case were mapping is less than 74\% and the only case where DN Trinity mapped more reads than Raw Trinity. \nobreakspace  {}\caption@xref  {fig:figure_3_mocu_mapping}{ on input line 111}\hbox {}\textit  {M. oculata} unnormalized Oases performed the worst, with Trinity assemble having the best mappings. Trinity assemblies have more mapped reads than Oases for all conditions, with at least 93\% read mapping for both species. Raw Trinity typically mapped slightly more reads than DN, and the opposite occurs for Oases, with DN having more reads mapped to its assembly. Note that the Y axis starts at 45\%.\relax }}{22}}
+\newlabel{fig:read_mapping}{{3.3}{22}}
+\newlabel{fig:figure_4_moccVsknownmolg}{{\caption@xref {fig:figure_4_moccVsknownmolg}{ on input line 126}}{23}}
+\newlabel{fig:figure_4_mocuVsknownmolg}{{\caption@xref {fig:figure_4_mocuVsknownmolg}{ on input line 130}}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces \textbf  {Accuracy, completeness and recovery rate against know Molgula sequences.} The NCBI has 178 Molgula sequence in its database. Transcripts were searched against these sequences using BLASTN with a cut-off of e-12. Trinity assemblies performed the best, recovering all known sequences. \textit  {M. occulta} unnormalized assembled performed the worst, only recovering 79 (44\%) of the transcripts. \textit  {M. occulta} tended to recover fewer of the known transcripts as well.\relax }}{23}}
+\newlabel{fig:known_molg}{{3.4}{23}}
+\citation{satoh_surfing_2005}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}Both unnormalized and normalized assemblies recovered many of the same transcripts}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.7}Homology search against the \textit  {Ciona} proteome shows similar recovery of ascidian genes across assemblies}{24}}
+\newlabel{fig:figure_5_mocc_blast_overlap}{{\caption@xref {fig:figure_5_mocc_blast_overlap}{ on input line 151}}{25}}
+\newlabel{fig:figure_5_mocu_blast_overlap}{{\caption@xref {fig:figure_5_mocu_blast_overlap}{ on input line 155}}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces \textbf  {Gene recovery, raw reads versus normalized.} Gene homologue with \textit  {C. intestinalis} via BLAST for \textit  {M. occulta} (left) and \textit  {M. oculata} (right). Each oval represent the total number of homologs sequences recovered. In both species the Trinity assembler assembled more homologous sequences. There was almost complete overlap in homology for both assemblers and both assembly conditions.\relax }}{25}}
+\newlabel{fig:overlap}{{3.5}{25}}
+\citation{parra_cegma:_2007}
+\citation{huber_evolution_2000,stach_phylogeny_2002}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.8}CEGMA analysis shows high recovery of genes}{26}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Transcriptome assembly accurately recovers known transcripts and many genes}{26}}
+\citation{parra_cegma:_2007}
+\citation{haas_novo_2013,brown_reference-free_2012}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Digital normalization eases assembly without strongly affecting assembly content}{27}}
+\citation{oneil_assessing_2013}
+\citation{vijay_challenges_2012,grabherr_full-length_2011,van_belleghem_novo_2012}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Trinity assemblies are more sensitive to low-abundance k-mers but contain no new conserved genes}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusions}{29}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 4}Genome assembly and characterization}{31}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Materials and methods}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Genomic DNA library preparation and sequencing}{31}}
 \citation{brown_reference-free_2012,schwarz_genome_2013}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Genome sequence assembly}{12}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Results}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Gene complexes}{13}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 4}Another chapter}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Genome sequence assembly}{32}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Results}{33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Gene complexes}{33}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 5}Another chapter}{34}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 5}Conclusions}{15}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {Chapter 6}Conclusions}{35}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\textbf  {APPENDIX}\textmd  {\leaders \hbox to 1em{\hss .\hss }\hfill }}{16}}
+\@writefile{toc}{\contentsline {chapter}{\textbf  {APPENDIX}\textmd  {\leaders \hbox to 1em{\hss .\hss }\hfill }}{36}}
 \bibstyle{abbrv}
 \bibdata{MyLibrary}
 \bibcite{berrill_studies_1931}{{1}{}{{}}{{}}}
@@ -83,39 +164,60 @@
 \bibcite{dehal_draft_2002}{{5}{}{{}}{{}}}
 \bibcite{di_gregorio_tail_2002}{{6}{}{{}}{{}}}
 \bibcite{glenn_field_2011}{{7}{}{{}}{{}}}
-\bibcite{hashimoto_transcription_2011}{{8}{}{{}}{{}}}
-\bibcite{hotta_temporal_1999}{{9}{}{{}}{{}}}
-\bibcite{huber_evolution_2000}{{10}{}{{}}{{}}}
-\bibcite{jeffery_factors_1992}{{11}{}{{}}{{}}}
-\bibcite{jeffery_minireview_2002}{{12}{}{{}}{{}}}
-\bibcite{jeffery_evolutionary_1991}{{13}{}{{}}{{}}}
-\bibcite{jeffery_evolution_1999}{{14}{}{{}}{{}}}
-\bibcite{jiang_ascidian_2005}{{15}{}{{}}{{}}}
-\bibcite{kugler_evolutionary_2011}{{16}{}{{}}{{}}}
-\bibcite{lemaire_unfolding_2009}{{17}{}{{}}{{}}}
-\bibcite{lemaire_evolutionary_2011}{{18}{}{{}}{{}}}
-\bibcite{lemaire_ascidians_2008}{{19}{}{{}}{{}}}
-\bibcite{maliska_molgula_2010}{{20}{}{{}}{{}}}
-\bibcite{minokawa_binary_2001}{{21}{}{{}}{{}}}
-\bibcite{miyamoto_formation_1985}{{22}{}{{}}{{}}}
-\bibcite{nakatani_duration_1999}{{23}{}{{}}{{}}}
-\bibcite{nakatani_basic_1996}{{24}{}{{}}{{}}}
-\bibcite{nishida_cell_1987}{{25}{}{{}}{{}}}
-\bibcite{nishida_cell_1983}{{26}{}{{}}{{}}}
-\bibcite{nishida_cell_1985}{{27}{}{{}}{{}}}
-\bibcite{satoh_ascidian_2001}{{28}{}{{}}{{}}}
-\bibcite{satoh_ascidian_2003}{{29}{}{{}}{{}}}
-\bibcite{schwarz_genome_2013}{{30}{}{{}}{{}}}
-\bibcite{stemple_structure_2005}{{31}{}{{}}{{}}}
-\bibcite{swalla_mechanisms_1993}{{32}{}{{}}{{}}}
-\bibcite{swalla_identification_1991}{{33}{}{{}}{{}}}
-\bibcite{swalla_interspecific_1990}{{34}{}{{}}{{}}}
-\bibcite{swalla_requirement_1996}{{35}{}{{}}{{}}}
-\bibcite{swalla_multigene_1999}{{36}{}{{}}{{}}}
-\bibcite{swalla_novel_1993}{{37}{}{{}}{{}}}
-\bibcite{takada_brachyury_2002}{{38}{}{{}}{{}}}
-\bibcite{veeman_chongmague_2008}{{39}{}{{}}{{}}}
-\bibcite{yasuo_function_1993}{{40}{}{{}}{{}}}
-\bibcite{yasuo_ascidian_1994}{{41}{}{{}}{{}}}
-\bibcite{yasuo_conservation_1998}{{42}{}{{}}{{}}}
+\bibcite{grabherr_full-length_2011}{{8}{}{{}}{{}}}
+\bibcite{haas_novo_2013}{{9}{}{{}}{{}}}
+\bibcite{hashimoto_transcription_2011}{{10}{}{{}}{{}}}
+\bibcite{hotta_temporal_1999}{{11}{}{{}}{{}}}
+\bibcite{huber_evolution_2000}{{12}{}{{}}{{}}}
+\bibcite{jeffery_factors_1992}{{13}{}{{}}{{}}}
+\bibcite{jeffery_minireview_2002}{{14}{}{{}}{{}}}
+\bibcite{jeffery_evolutionary_1991}{{15}{}{{}}{{}}}
+\bibcite{jeffery_evolution_1999}{{16}{}{{}}{{}}}
+\bibcite{jiang_ascidian_2005}{{17}{}{{}}{{}}}
+\bibcite{kugler_evolutionary_2011}{{18}{}{{}}{{}}}
+\bibcite{langmead_fast_2012}{{19}{}{{}}{{}}}
+\bibcite{lemaire_unfolding_2009}{{20}{}{{}}{{}}}
+\bibcite{lemaire_evolutionary_2011}{{21}{}{{}}{{}}}
+\bibcite{lemaire_ascidians_2008}{{22}{}{{}}{{}}}
+\bibcite{li_sequence_2009}{{23}{}{{}}{{}}}
+\bibcite{li_cd-hit:_2006}{{24}{}{{}}{{}}}
+\bibcite{lohse_robina:_2012}{{25}{}{{}}{{}}}
+\bibcite{macmanes_optimal_2014}{{26}{}{{}}{{}}}
+\bibcite{maliska_molgula_2010}{{27}{}{{}}{{}}}
+\bibcite{martin_next-generation_2011}{{28}{}{{}}{{}}}
+\bibcite{minokawa_binary_2001}{{29}{}{{}}{{}}}
+\bibcite{miyamoto_formation_1985}{{30}{}{{}}{{}}}
+\bibcite{nakatani_duration_1999}{{31}{}{{}}{{}}}
+\bibcite{nakatani_basic_1996}{{32}{}{{}}{{}}}
+\bibcite{nishida_cell_1987}{{33}{}{{}}{{}}}
+\bibcite{nishida_cell_1983}{{34}{}{{}}{{}}}
+\bibcite{nishida_cell_1985}{{35}{}{{}}{{}}}
+\bibcite{oneil_assessing_2013}{{36}{}{{}}{{}}}
+\bibcite{parra_cegma:_2007}{{37}{}{{}}{{}}}
+\bibcite{pop_genome_2009}{{38}{}{{}}{{}}}
+\bibcite{satoh_ascidian_2001}{{39}{}{{}}{{}}}
+\bibcite{satoh_ascidian_2003}{{40}{}{{}}{{}}}
+\bibcite{satoh_surfing_2005}{{41}{}{{}}{{}}}
+\bibcite{schulz_oases:_2012}{{42}{}{{}}{{}}}
+\bibcite{schwarz_genome_2013}{{43}{}{{}}{{}}}
+\bibcite{stach_phylogeny_2002}{{44}{}{{}}{{}}}
+\bibcite{stapley_adaptation_2010}{{45}{}{{}}{{}}}
+\bibcite{stemple_structure_2005}{{46}{}{{}}{{}}}
+\bibcite{swalla_mechanisms_1993}{{47}{}{{}}{{}}}
+\bibcite{swalla_identification_1991}{{48}{}{{}}{{}}}
+\bibcite{swalla_interspecific_1990}{{49}{}{{}}{{}}}
+\bibcite{swalla_requirement_1996}{{50}{}{{}}{{}}}
+\bibcite{swalla_multigene_1999}{{51}{}{{}}{{}}}
+\bibcite{swalla_novel_1993}{{52}{}{{}}{{}}}
+\bibcite{takada_brachyury_2002}{{53}{}{{}}{{}}}
+\bibcite{van_belleghem_novo_2012}{{54}{}{{}}{{}}}
+\bibcite{veeman_chongmague_2008}{{55}{}{{}}{{}}}
+\bibcite{vijay_challenges_2012}{{56}{}{{}}{{}}}
+\bibcite{vinson_assembly_2005}{{57}{}{{}}{{}}}
+\bibcite{wang_rna-seq:_2009}{{58}{}{{}}{{}}}
+\bibcite{yasuo_function_1993}{{59}{}{{}}{{}}}
+\bibcite{yasuo_ascidian_1994}{{60}{}{{}}{{}}}
+\bibcite{yasuo_conservation_1998}{{61}{}{{}}{{}}}
+\bibcite{zerbino_velvet:_2008}{{62}{}{{}}{{}}}
+\bibcite{zhang_impact_2011}{{63}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
