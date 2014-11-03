@@ -26,14 +26,16 @@
 \contentsline {section}{\numberline {3.4}Discussion}{26}
 \contentsline {subsection}{\numberline {3.4.1}Transcriptome assembly accurately recovers known transcripts and many genes}{26}
 \contentsline {subsection}{\numberline {3.4.2}Digital normalization eases assembly without strongly affecting assembly content}{27}
-\contentsline {subsection}{\numberline {3.4.3}Trinity assemblies are more sensitive to low-abundance k-mers but contain no new conserved genes}{29}
+\contentsline {subsection}{\numberline {3.4.3}Trinity assemblies are more sensitive to low-abundance k-mers but contain no new conserved genes}{28}
 \contentsline {section}{\numberline {3.5}Conclusions}{29}
 \contentsline {chapter}{\numberline {Chapter 4}Genome assembly and characterization}{31}
-\contentsline {section}{\numberline {4.1}Materials and methods}{31}
-\contentsline {subsection}{\numberline {4.1.1}Genomic DNA library preparation and sequencing}{31}
-\contentsline {subsection}{\numberline {4.1.2}Genome sequence assembly}{32}
-\contentsline {section}{\numberline {4.2}Results}{33}
-\contentsline {subsection}{\numberline {4.2.1}Gene complexes}{33}
-\contentsline {chapter}{\numberline {Chapter 5}Another chapter}{34}
-\contentsline {chapter}{\numberline {Chapter 6}Conclusions}{35}
-\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{36}
+\contentsline {section}{\numberline {4.1}Introduction}{31}
+\contentsline {section}{\numberline {4.2}Materials and methods}{31}
+\contentsline {subsection}{\numberline {4.2.1}Genomic DNA library preparation and sequencing}{31}
+\contentsline {subsection}{\numberline {4.2.2}Genome sequence assembly}{32}
+\contentsline {subsection}{\numberline {4.2.3}Gene identification and alignments}{33}
+\contentsline {section}{\numberline {4.3}Results}{33}
+\contentsline {subsection}{\numberline {4.3.1}Gene complexes}{35}
+\contentsline {chapter}{\numberline {Chapter 5}Another chapter}{36}
+\contentsline {chapter}{\numberline {Chapter 6}Conclusions}{37}
+\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{38}

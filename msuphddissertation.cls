@@ -409,4 +409,6 @@
     
 % Set the starting page style
 \pagestyle{empty} 
+
+\newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}%reformat tilde
  

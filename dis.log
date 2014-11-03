@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 OCT 2014 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 NOV 2014 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -406,23 +406,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./dis.lof
 
-LaTeX Warning: Reference `fig:figure_2_Mocc_dist' on page 19 undefined on input
+LaTeX Warning: Reference `fig:figure_2_Mocc_dist' on page 20 undefined on input
  line 5.
 
 
-LaTeX Warning: Reference `fig:figure_2_Mocu_dist' on page 19 undefined on input
+LaTeX Warning: Reference `fig:figure_2_Mocu_dist' on page 20 undefined on input
  line 5.
 
 
-LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 21 undefined on in
+LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 22 undefined on in
 put line 8.
 
 
-LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 21 undefined on in
+LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 22 undefined on in
 put line 8.
 
 
-Overfull \hbox (4.18092pt too wide) in paragraph at lines 9--9
+Overfull \hbox (4.18092pt too wide) in paragraph at lines 11--11
  \OT1/cmr/bx/n/12 gula se-quences. \OT1/cmr/m/n/12 The NCBI has 178 Mol-gula se
 -quence in its database. 
  []
@@ -464,66 +464,13 @@ Package natbib Warning: Citation `quail_tale_2012' on page 9 undefined on input
 
 ) (./comp.tex [9] [10]
 Chapter 3.
-
-Package natbib Warning: Citation `wang_rna-seq:_2009' on page 11 undefined on i
-nput line 7.
-
-
-Package natbib Warning: Citation `zhang_impact_2011' on page 11 undefined on in
-put line 9.
-
-
-Package natbib Warning: Citation `pop_genome_2009' on page 11 undefined on inpu
-t line 9.
-
-
-Package natbib Warning: Citation `vinson_assembly_2005' on page 11 undefined on
- input line 9.
-
-
-Package natbib Warning: Citation `stapley_adaptation_2010' on page 11 undefined
- on input line 9.
-
-
-Package natbib Warning: Citation `vijay_challenges_2012' on page 11 undefined o
-n input line 9.
-
 [11
 
-]
-
-Package natbib Warning: Citation `grabherr_full-length_2011' on page 12 undefin
-ed on input line 11.
-
-
-Package natbib Warning: Citation `zerbino_velvet:_2008' on page 12 undefined on
- input line 11.
-
-
-Package natbib Warning: Citation `schulz_oases:_2012' on page 12 undefined on i
-nput line 11.
-
-
-Package natbib Warning: Citation `pop_genome_2009' on page 12 undefined on inpu
-t line 11.
-
-
-Package natbib Warning: Citation `haas_novo_2013' on page 12 undefined on input
- line 13.
-
-[12] [13]
+] [12] [13]
 Overfull \hbox (57.23813pt too wide) in paragraph at lines 28--29
 \OT1/cmr/m/n/12 Scripts used to run these steps can be found in the fol-low-ing
  GitHub repos-i-tory: https://github.com/ged-
  []
-
-
-Package natbib Warning: Citation `lohse_robina:_2012' on page 14 undefined on i
-nput line 30.
-
-
-Package natbib Warning: Citation `macmanes_optimal_2014' on page 14 undefined o
-n input line 30.
 
 <manuscript/Table1.pdf, id=78, 427.29387pt x 153.91522pt>
 File: manuscript/Table1.pdf Graphic file (type pdf)
@@ -531,102 +478,15 @@ File: manuscript/Table1.pdf Graphic file (type pdf)
 <use manuscript/Table1.pdf>
 Package pdftex.def Info: manuscript/Table1.pdf used on input line 36.
 (pdftex.def)             Requested size: 427.29283pt x 153.91483pt.
-
-./comp.tex:37: Undefined control sequence.
-<argument> ...occulta} had approximately \mytilde 
-                                                  237 million reads and was ...
-l.37 ...ced by 77\% to \mytilde50 million reads. }
-                                                  
-? 
-./comp.tex:37: Undefined control sequence.
-<argument> ...ads and reduced by 77\% to \mytilde 
-                                                  50 million reads. \relax }...
-l.37 ...ced by 77\% to \mytilde50 million reads. }
-                                                  
-? 
-./comp.tex:37: Undefined control sequence.
-<argument> ...occulta} had approximately \mytilde 
-                                                  237 million reads and was ...
-l.37 ...ced by 77\% to \mytilde50 million reads. }
-                                                  
-? 
-./comp.tex:37: Undefined control sequence.
-<argument> ...ads and reduced by 77\% to \mytilde 
-                                                  50 million reads. 
-l.37 ...ced by 77\% to \mytilde50 million reads. }
-                                                  
-? 
-./comp.tex:37: Undefined control sequence.
-<argument> ...occulta} had approximately \mytilde 
-                                                  237 million reads and was ...
-l.37 ...ced by 77\% to \mytilde50 million reads. }
-                                                  
-? 
-./comp.tex:37: Undefined control sequence.
-<argument> ...ads and reduced by 77\% to \mytilde 
-                                                  50 million reads. 
-l.37 ...ced by 77\% to \mytilde50 million reads. }
-                                                  
-? 
-[14]
-
-Package natbib Warning: Citation `vijay_challenges_2012' on page 15 undefined o
-n input line 42.
-
-
-Package natbib Warning: Citation `grabherr_full-length_2011' on page 15 undefin
-ed on input line 42.
-
-
-Package natbib Warning: Citation `schulz_oases:_2012' on page 15 undefined on i
-nput line 42.
-
+ [14]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 45.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
-
-
-Package natbib Warning: Citation `li_cd-hit:_2006' on page 15 undefined on inpu
-t line 45.
-
-[15 <./manuscript/Table1.pdf>]
-
-Package natbib Warning: Citation `langmead_fast_2012' on page 16 undefined on i
-nput line 51.
-
-
-Package natbib Warning: Citation `li_sequence_2009' on page 16 undefined on inp
-ut line 51.
-
-[16]
-./comp.tex:56: Undefined control sequence.
-l.56 ...e digitally normalized reads took \mytilde
-                                                  22 CPU hours and 21 GB of ...
-
-? 
-./comp.tex:58: Undefined control sequence.
-l.58 ...faster than assembling raw reads, \mytilde
-                                                  15 hours compared to \myti...
-
-? 
-./comp.tex:58: Undefined control sequence.
-l.58 ...ads, \mytilde15 hours compared to \mytilde
-                                                  26 hours for \textit{M. oc...
-
-? 
-./comp.tex:58: Undefined control sequence.
-l.58 ...hours for \textit{M. oculata} and \mytilde
-                                                  24 hours compared to \myti...
-
-? 
-./comp.tex:58: Undefined control sequence.
-l.58 ... and \mytilde24 hours compared to \mytilde
-                                                  39 hours for \textit{M. oc...
-
-? 
+ [15 <./manuscript/Table1.pdf>] [16]
 <manuscript/figure_1_time_and_memory.pdf, id=109, 578.16pt x 433.62pt>
 File: manuscript/figure_1_time_and_memory.pdf Graphic file (type pdf)
 
@@ -641,12 +501,7 @@ File: manuscript/Table2.pdf Graphic file (type pdf)
 <use manuscript/Table2.pdf>
 Package pdftex.def Info: manuscript/Table2.pdf used on input line 72.
 (pdftex.def)             Requested size: 469.75502pt x 112.5937pt.
-
-
-Package natbib Warning: Citation `pop_genome_2009' on page 19 undefined on inpu
-t line 80.
-
-[19 <./manuscript/Table2.pdf>]
+ [19 <./manuscript/Table2.pdf>]
 <manuscript/figure_2_Mocu_dist.pdf, id=133, 433.62pt x 325.215pt>
 File: manuscript/figure_2_Mocu_dist.pdf Graphic file (type pdf)
 
@@ -686,253 +541,161 @@ Package pdftex.def Info: manuscript/Table_3_multiplicity.pdf used on input line
 (pdftex.def)             Requested size: 187.89914pt x 105.68135pt.
 
 
-Package caption Warning: \label without proper \caption on input line 107.
-See the caption package documentation for explanation.
-
-
 LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 20 undefined on in
 put line 102.
 
-./comp.tex:106: Undefined control sequence.
-l.106 	\subfigure
-                 []{%
-? 
-<manuscript/figure_3_mocc_mapping.pdf, id=135, 794.97pt x 614.295pt>
+[20 <./manuscript/figure_2_Mocu_dist.pdf>]
+<manuscript/figure_3_mocc_mapping.pdf, id=145, 794.97pt x 614.295pt>
 File: manuscript/figure_3_mocc_mapping.pdf Graphic file (type pdf)
 
 <use manuscript/figure_3_mocc_mapping.pdf>
 Package pdftex.def Info: manuscript/figure_3_mocc_mapping.pdf used on input lin
 e 108.
-(pdftex.def)             Requested size: 187.89914pt x 145.19357pt.
+(pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
-./comp.tex:110: Undefined control sequence.
-l.110 	\subfigure
-                 []{%
-? 
-<manuscript/figure_3_mocu_mapping.pdf, id=136, 794.97pt x 614.295pt>
+<manuscript/figure_3_mocu_mapping.pdf, id=146, 794.97pt x 614.295pt>
 File: manuscript/figure_3_mocu_mapping.pdf Graphic file (type pdf)
 
 <use manuscript/figure_3_mocu_mapping.pdf>
 Package pdftex.def Info: manuscript/figure_3_mocu_mapping.pdf used on input lin
 e 112.
-(pdftex.def)             Requested size: 187.89914pt x 145.19357pt.
+(pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
 
-Package caption Warning: \label without proper \caption on input line 107.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 21 undefined on in
+put line 113.
 
 
-LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 20 undefined on in
-put line 115.
+LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 21 undefined on in
+put line 113.
 
 
-Package caption Warning: \label without proper \caption on input line 111.
-See the caption package documentation for explanation.
+LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 21 undefined on in
+put line 113.
 
 
-LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 20 undefined on in
-put line 115.
-
-
-Package caption Warning: \label without proper \caption on input line 107.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 20 undefined on in
-put line 115.
-
-
-Package caption Warning: \label without proper \caption on input line 111.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 20 undefined on in
-put line 115.
-
-[20 <./manuscript/figure_2_Mocu_dist.pdf>]
-
-Package natbib Warning: Citation `vijay_challenges_2012' on page 21 undefined o
-n input line 120.
-
-
-Package natbib Warning: Citation `martin_next-generation_2011' on page 21 undef
-ined on input line 120.
-
-
-Package natbib Warning: Citation `li_sequence_2009' on page 21 undefined on inp
-ut line 120.
+LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 21 undefined on in
+put line 113.
 
 [21 <./manuscript/Table_3_multiplicity.pdf>] [22 <./manuscript/figure_3_mocc_ma
 pping.pdf> <./manuscript/figure_3_mocu_mapping.pdf>]
-./comp.tex:125: Undefined control sequence.
-l.125 	\subfigure
-                 []{%
-? 
 <manuscript/figure_4_moccVsknownmolg.pdf, id=181, 794.97pt x 614.295pt>
 File: manuscript/figure_4_moccVsknownmolg.pdf Graphic file (type pdf)
 
 <use manuscript/figure_4_moccVsknownmolg.pdf>
 Package pdftex.def Info: manuscript/figure_4_moccVsknownmolg.pdf used on input 
-line 127.
-(pdftex.def)             Requested size: 187.89914pt x 145.19357pt.
+line 124.
+(pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
-./comp.tex:129: Undefined control sequence.
-l.129 	\subfigure
-                 []{%
-? 
 <manuscript/figure_4_mocuVsknownmolg.pdf, id=182, 794.97pt x 614.295pt>
 File: manuscript/figure_4_mocuVsknownmolg.pdf Graphic file (type pdf)
 
 <use manuscript/figure_4_mocuVsknownmolg.pdf>
 Package pdftex.def Info: manuscript/figure_4_mocuVsknownmolg.pdf used on input 
-line 131.
-(pdftex.def)             Requested size: 187.89914pt x 145.19357pt.
+line 128.
+(pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
-Overfull \hbox (14.21442pt too wide) in paragraph at lines 141--141
+Overfull \hbox (14.21442pt too wide) in paragraph at lines 136--136
 []\OT1/cmr/bx/n/14.4 Both un-nor-mal-ized and nor-mal-ized as-sem-blies re-cov-
 ered many
  []
 
-./comp.tex:142: Undefined control sequence.
-l.142 ...with Trinity diginorm recovering \mytilde
-                                                  99\% of Trinity's unnormal...
-
-? 
 [23 <./manuscript/figure_4_moccVsknownmolg.pdf> <./manuscript/figure_4_mocuVskn
-ownmolg.pdf>]
-./comp.tex:145: Undefined control sequence.
-l.145 ...a genome of ~160 Mb and contains \mytilde
-                                                  16,000 genes \citep{satoh_...
-
-? 
-
-Package natbib Warning: Citation `satoh_surfing_2005' on page 24 undefined on i
-nput line 145.
-
-[24]
-./comp.tex:150: Undefined control sequence.
-l.150 	\subfigure
-                 [\textit{ M. occulta}]{%
-? 
+ownmolg.pdf>] [24]
 <manuscript/figure_5_mocc_blast_overlap.pdf, id=202, 794.97pt x 614.295pt>
 File: manuscript/figure_5_mocc_blast_overlap.pdf Graphic file (type pdf)
 
 <use manuscript/figure_5_mocc_blast_overlap.pdf>
 Package pdftex.def Info: manuscript/figure_5_mocc_blast_overlap.pdf used on inp
-ut line 152.
-(pdftex.def)             Requested size: 187.89914pt x 145.19357pt.
+ut line 145.
+(pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
-./comp.tex:154: Undefined control sequence.
-l.154 	\subfigure
-                 [\textit{ M. oculata}]{%
-? 
 <manuscript/figure_5_mocu_blast_overlap.pdf, id=203, 794.97pt x 614.295pt>
 File: manuscript/figure_5_mocu_blast_overlap.pdf Graphic file (type pdf)
 
 <use manuscript/figure_5_mocu_blast_overlap.pdf>
 Package pdftex.def Info: manuscript/figure_5_mocu_blast_overlap.pdf used on inp
-ut line 156.
-(pdftex.def)             Requested size: 187.89914pt x 145.19357pt.
+ut line 149.
+(pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
  [25 <./manuscript/figure_5_mocc_blast_overlap.pdf> <./manuscript/figure_5_mocu
-_blast_overlap.pdf>]
-
-Package natbib Warning: Citation `parra_cegma:_2007' on page 26 undefined on in
-put line 165.
-
-
-Package natbib Warning: Citation `stach_phylogeny_2002' on page 26 undefined on
- input line 173.
-
-[26]
-
-Package natbib Warning: Citation `parra_cegma:_2007' on page 27 undefined on in
-put line 175.
-
-
-Package natbib Warning: Citation `haas_novo_2013' on page 27 undefined on input
- line 179.
-
-[27]
-
-Package natbib Warning: Citation `oneil_assessing_2013' on page 28 undefined on
- input line 187.
-
-[28]
-
-Package natbib Warning: Citation `vijay_challenges_2012' on page 29 undefined o
-n input line 192.
-
-
-Package natbib Warning: Citation `grabherr_full-length_2011' on page 29 undefin
-ed on input line 192.
-
-
-Package natbib Warning: Citation `van_belleghem_novo_2012' on page 29 undefined
- on input line 192.
-
-[29]) (./genome.tex [30]
+_blast_overlap.pdf>] [26]
+[27] [28] [29]) (./genome.tex [30]
 Chapter 4.
 Missing character: There is no × in font cmr12!
 [31
 
-] [32]) (./anotherchapter.tex [33]
+] [32]
+./genome.tex:14: Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...d and placed in the following files, mocc_
+                                                  hox_aa.fa, mocu_hox_aa.fa,...
+
+? 
+./genome.tex:15: Missing $ inserted.
+<inserted text> 
+                $
+l.15 
+     
+? 
+
+Overfull \hbox (178.32088pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/12 were an-no-tated and placed in the fol-low-ing files, mocc$[]\O
+ML/cmm/m/it/12 ox[]a:fa; mocu[]ox[]a:fa; andmoxi[]ox[]a:fa; whicharelocated\OT1
+/cmr/m/n/12 ???\OML/cmm/m/it/12 :Hox\OT1/cmr/m/n/12 12 \OMS/cmsy/m/n/12 ^^@
+ []
+
+[33] [34]) (./anotherchapter.tex [35]
 Chapter 5.
-) (./conc.tex [34
+) (./conc.tex [36
 
 ]
 Chapter 6.
-) [35
+) [37
 
-] [36
+] [38
 
-] (./gloss.tex) (./dis.bbl [37
+] (./gloss.tex) (./dis.bbl [39
 
 
-] [38] [39]
+] [40] [41]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [40]
+ [42]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [41])
+ [43])
 
 Package natbib Warning: There were undefined citations.
 
-[42] (./dis.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[44] (./dis.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5226 strings out of 493117
- 80097 string characters out of 6135433
- 150782 words of memory out of 5000000
- 8570 multiletter control sequences out of 15000+600000
- 8769 words of font info for 32 fonts, out of 8000000 for 9000
+ 5238 strings out of 493117
+ 80457 string characters out of 6135433
+ 150335 words of memory out of 5000000
+ 8580 multiletter control sequences out of 15000+600000
+ 9106 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,10n,47p,2455b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (51 pages, 618997 bytes).
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on dis.pdf (53 pages, 634835 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
+ 314 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
