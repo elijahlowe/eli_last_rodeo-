@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 NOV 2014 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 NOV 2014 12:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -264,7 +264,17 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./dis.aux)
+) (./dis.aux
+
+LaTeX Warning: Label `fig:hox12' multiply defined.
+
+
+LaTeX Warning: Label `fig:hox12' multiply defined.
+
+
+LaTeX Warning: Label `fig:hox12' multiply defined.
+
+)
 \openout1 = `dis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
@@ -406,19 +416,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] (./dis.lof
 
-LaTeX Warning: Reference `fig:figure_2_Mocc_dist' on page 20 undefined on input
+LaTeX Warning: Reference `fig:figure_2_Mocc_dist' on page 19 undefined on input
  line 5.
 
 
-LaTeX Warning: Reference `fig:figure_2_Mocu_dist' on page 20 undefined on input
+LaTeX Warning: Reference `fig:figure_2_Mocu_dist' on page 19 undefined on input
  line 5.
 
 
-LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 22 undefined on in
+LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 21 undefined on in
 put line 8.
 
 
-LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 22 undefined on in
+LaTeX Warning: Reference `fig:figure_3_mocu_mapping' on page 21 undefined on in
 put line 8.
 
 
@@ -472,7 +482,7 @@ Overfull \hbox (57.23813pt too wide) in paragraph at lines 28--29
  GitHub repos-i-tory: https://github.com/ged-
  []
 
-<manuscript/Table1.pdf, id=78, 427.29387pt x 153.91522pt>
+<manuscript/Table1.pdf, id=79, 427.29387pt x 153.91522pt>
 File: manuscript/Table1.pdf Graphic file (type pdf)
 
 <use manuscript/Table1.pdf>
@@ -487,7 +497,7 @@ File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 45.
  [15 <./manuscript/Table1.pdf>] [16]
-<manuscript/figure_1_time_and_memory.pdf, id=109, 578.16pt x 433.62pt>
+<manuscript/figure_1_time_and_memory.pdf, id=110, 578.16pt x 433.62pt>
 File: manuscript/figure_1_time_and_memory.pdf Graphic file (type pdf)
 
 <use manuscript/figure_1_time_and_memory.pdf>
@@ -495,14 +505,14 @@ Package pdftex.def Info: manuscript/figure_1_time_and_memory.pdf used on input
 line 62.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
  [17] [18 <./manuscript/figure_1_time_and_memory.pdf>]
-<manuscript/Table2.pdf, id=121, 542.57625pt x 130.04636pt>
+<manuscript/Table2.pdf, id=122, 542.57625pt x 130.04636pt>
 File: manuscript/Table2.pdf Graphic file (type pdf)
 
 <use manuscript/Table2.pdf>
 Package pdftex.def Info: manuscript/Table2.pdf used on input line 72.
 (pdftex.def)             Requested size: 469.75502pt x 112.5937pt.
  [19 <./manuscript/Table2.pdf>]
-<manuscript/figure_2_Mocu_dist.pdf, id=133, 433.62pt x 325.215pt>
+<manuscript/figure_2_Mocu_dist.pdf, id=134, 433.62pt x 325.215pt>
 File: manuscript/figure_2_Mocu_dist.pdf Graphic file (type pdf)
 
 <use manuscript/figure_2_Mocu_dist.pdf>
@@ -532,7 +542,7 @@ LaTeX Warning: Reference `fig:figure_2_Mocc_dist' on page 20 undefined on input
 LaTeX Warning: Reference `fig:figure_2_Mocu_dist' on page 20 undefined on input
  line 90.
 
-<manuscript/Table_3_multiplicity.pdf, id=134, 236.0281pt x 132.74463pt>
+<manuscript/Table_3_multiplicity.pdf, id=135, 236.0281pt x 132.74463pt>
 File: manuscript/Table_3_multiplicity.pdf Graphic file (type pdf)
 
 <use manuscript/Table_3_multiplicity.pdf>
@@ -545,7 +555,7 @@ LaTeX Warning: Reference `fig:figure_3_mocc_mapping' on page 20 undefined on in
 put line 102.
 
 [20 <./manuscript/figure_2_Mocu_dist.pdf>]
-<manuscript/figure_3_mocc_mapping.pdf, id=145, 794.97pt x 614.295pt>
+<manuscript/figure_3_mocc_mapping.pdf, id=146, 794.97pt x 614.295pt>
 File: manuscript/figure_3_mocc_mapping.pdf Graphic file (type pdf)
 
 <use manuscript/figure_3_mocc_mapping.pdf>
@@ -553,7 +563,7 @@ Package pdftex.def Info: manuscript/figure_3_mocc_mapping.pdf used on input lin
 e 108.
 (pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
-<manuscript/figure_3_mocu_mapping.pdf, id=146, 794.97pt x 614.295pt>
+<manuscript/figure_3_mocu_mapping.pdf, id=147, 794.97pt x 614.295pt>
 File: manuscript/figure_3_mocu_mapping.pdf Graphic file (type pdf)
 
 <use manuscript/figure_3_mocu_mapping.pdf>
@@ -579,7 +589,7 @@ put line 113.
 
 [21 <./manuscript/Table_3_multiplicity.pdf>] [22 <./manuscript/figure_3_mocc_ma
 pping.pdf> <./manuscript/figure_3_mocu_mapping.pdf>]
-<manuscript/figure_4_moccVsknownmolg.pdf, id=181, 794.97pt x 614.295pt>
+<manuscript/figure_4_moccVsknownmolg.pdf, id=182, 794.97pt x 614.295pt>
 File: manuscript/figure_4_moccVsknownmolg.pdf Graphic file (type pdf)
 
 <use manuscript/figure_4_moccVsknownmolg.pdf>
@@ -587,7 +597,7 @@ Package pdftex.def Info: manuscript/figure_4_moccVsknownmolg.pdf used on input
 line 124.
 (pdftex.def)             Requested size: 211.38832pt x 163.34042pt.
 
-<manuscript/figure_4_mocuVsknownmolg.pdf, id=182, 794.97pt x 614.295pt>
+<manuscript/figure_4_mocuVsknownmolg.pdf, id=183, 794.97pt x 614.295pt>
 File: manuscript/figure_4_mocuVsknownmolg.pdf Graphic file (type pdf)
 
 <use manuscript/figure_4_mocuVsknownmolg.pdf>
@@ -621,85 +631,128 @@ ut line 149.
 _blast_overlap.pdf>] [26]
 [27] [28] [29]) (./genome.tex [30]
 Chapter 4.
-Missing character: There is no × in font cmr12!
 [31
 
-] [32]
-./genome.tex:14: Missing $ inserted.
-<inserted text> 
-                $
-l.14 ...d and placed in the following files, mocc_
-                                                  hox_aa.fa, mocu_hox_aa.fa,...
+] <figures/adults.pdf, id=242, 393.47pt x 362.35374pt>
+File: figures/adults.pdf Graphic file (type pdf)
 
-? 
-./genome.tex:15: Missing $ inserted.
-<inserted text> 
-                $
-l.15 
-     
-? 
+<use figures/adults.pdf>
+Package pdftex.def Info: figures/adults.pdf used on input line 14.
+(pdftex.def)             Requested size: 196.73451pt x 181.17642pt.
+Missing character: There is no × in font cmr12!
+ [32] [33 <./figures/adults.pdf>] [34]
+<figures/genome_table_1.pdf, id=288, 521.71451pt x 75.97083pt>
+File: figures/genome_table_1.pdf Graphic file (type pdf)
 
-Overfull \hbox (178.32088pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/n/12 were an-no-tated and placed in the fol-low-ing files, mocc$[]\O
-ML/cmm/m/it/12 ox[]a:fa; mocu[]ox[]a:fa; andmoxi[]ox[]a:fa; whicharelocated\OT1
-/cmr/m/n/12 ???\OML/cmm/m/it/12 :Hox\OT1/cmr/m/n/12 12 \OMS/cmsy/m/n/12 ^^@
- []
+<use figures/genome_table_1.pdf>
+Package pdftex.def Info: figures/genome_table_1.pdf used on input line 33.
+(pdftex.def)             Requested size: 469.75502pt x 68.40787pt.
+ [35] [36 <./figures/genome_table_1.pdf>]
+<figures/Hox12_13.pdf, id=308, 761.24207pt x 291.35832pt>
+File: figures/Hox12_13.pdf Graphic file (type pdf)
 
-[33] [34]) (./tail.tex [35]
+<use figures/Hox12_13.pdf>
+Package pdftex.def Info: figures/Hox12_13.pdf used on input line 44.
+(pdftex.def)             Requested size: 418.68443pt x 160.24756pt.
+
+
+Package natbib Warning: Citation `Dehal' on page 37 undefined on input line 49.
+
+
+
+Package natbib Warning: Citation `Ikuta 2004' on page 37 undefined on input lin
+e 49.
+
+[37] [38 <./figures/Hox12_13.pdf>]
+
+Package natbib Warning: Citation `McGinnis 1992' on page 39 undefined on input 
+line 53.
+
+<figures/hox.pdf, id=336, 709.65125pt x 298.11375pt>
+File: figures/hox.pdf Graphic file (type pdf)
+ <use figures/hox.pdf>
+Package pdftex.def Info: figures/hox.pdf used on input line 57.
+(pdftex.def)             Requested size: 461.26784pt x 193.77164pt.
+)
+(./tail.tex [39 <./figures/hox.pdf>]
 Chapter 5.
-[36
-
-] [37]) (./anotherchapter.tex [38] [39]
-Chapter 6.
-) (./conc.tex [40
+[40
 
 ]
-Chapter 7.
-) [41
 
-] [42
-
-] (./gloss.tex) (./dis.bbl [43
+Package natbib Warning: Citation `Satoh' on page 41 undefined on input line 13.
 
 
-] [44] [45]
+
+Package natbib Warning: Citation `1994' on page 41 undefined on input line 13.
+
+
+Package natbib Warning: Citation `1999' on page 41 undefined on input line 13.
+
+[41] [42] [43] <figures/bra_grn.pdf, id=895, 417.56pt x 419.5675pt>
+File: figures/bra_grn.pdf Graphic file (type pdf)
+
+<use figures/bra_grn.pdf>
+Package pdftex.def Info: figures/bra_grn.pdf used on input line 46.
+(pdftex.def)             Requested size: 229.65869pt x 230.76283pt.
+
+<figures/prickle.pdf, id=896, 206.7725pt x 204.765pt>
+File: figures/prickle.pdf Graphic file (type pdf)
+
+<use figures/prickle.pdf>
+Package pdftex.def Info: figures/prickle.pdf used on input line 53.
+(pdftex.def)             Requested size: 113.72522pt x 112.62108pt.
+) (./conc.tex [44] [45 <./figures/bra_grn.pdf> <./figures/prickle.pdf>] [46]
+Chapter 6.
+) [47
+
+] [48
+
+] (./gloss.tex) (./dis.bbl [49
+
+] [50
+
+] [51] [52]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [46]
+ [53]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [47])
+ [54])
 
 Package natbib Warning: There were undefined citations.
 
-[48] (./dis.aux)
+[55] (./dis.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 5241 strings out of 493117
- 80479 string characters out of 6135433
- 150335 words of memory out of 5000000
- 8580 multiletter control sequences out of 15000+600000
- 9106 words of font info for 34 fonts, out of 8000000 for 9000
+ 5286 strings out of 493117
+ 81379 string characters out of 6135433
+ 150439 words of memory out of 5000000
+ 8620 multiletter control sequences out of 15000+600000
+ 9465 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,10n,47p,2455b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (57 pages, 641110 bytes).
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on dis.pdf (64 pages, 7923830 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 1024 PDF objects out of 1200 (max. 8388607)
+ 618 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
