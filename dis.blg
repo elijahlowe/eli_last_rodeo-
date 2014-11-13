@@ -1,64 +1,60 @@
 This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dis.aux
-White space in argument---line 178 of file dis.aux
- : \citation{Ikuta
- :                 2004}
+White space in argument---line 158 of file dis.aux
+ : \citation{wada_details_1994,Cameron
+ :                                     et al 2000}
 I'm skipping whatever remains of this command
-White space in argument---line 182 of file dis.aux
+White space in argument---line 191 of file dis.aux
  : \citation{McGinnis
  :                    1992}
 I'm skipping whatever remains of this command
 The style file: abbrv.bst
 Database file #1: MyLibrary.bib
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "kourakis_one-dimensional_2014"
-Warning--I didn't find a database entry for "kobayashi_differential_2013"
-Warning--I didn't find a database entry for "quail_tale_2012"
-Warning--I didn't find a database entry for "Dehal"
 Warning--I didn't find a database entry for "Satoh"
 Warning--I didn't find a database entry for "1994"
 Warning--I didn't find a database entry for "1999"
+Warning--I didn't find a database entry for ""
 Warning--empty institution in brown_reference-free_2012
-You've used 65 entries,
+You've used 82 entries,
             2118 wiz_defined-function locations,
-            884 strings with 19634 characters,
-and the built_in function-call counts, 28928 in all, are:
-= -- 2689
-> -- 2072
+            969 strings with 23793 characters,
+and the built_in function-call counts, 36587 in all, are:
+= -- 3404
+> -- 2618
 < -- 2
-+ -- 835
-- -- 756
-* -- 2733
-:= -- 5019
-add.period$ -- 195
-call.type$ -- 65
-change.case$ -- 572
++ -- 1052
+- -- 954
+* -- 3470
+:= -- 6340
+add.period$ -- 246
+call.type$ -- 82
+change.case$ -- 722
 chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 725
-empty$ -- 1702
-format.name$ -- 756
-if$ -- 5543
+cite$ -- 83
+duplicate$ -- 912
+empty$ -- 2158
+format.name$ -- 954
+if$ -- 7015
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 65
-newline$ -- 328
-num.names$ -- 130
-pop$ -- 453
+int.to.str$ -- 82
+missing$ -- 82
+newline$ -- 413
+num.names$ -- 164
+pop$ -- 569
 preamble$ -- 1
-purify$ -- 508
+purify$ -- 641
 quote$ -- 0
-skip$ -- 484
+skip$ -- 606
 stack$ -- 0
-substring$ -- 1794
-swap$ -- 76
+substring$ -- 2292
+swap$ -- 93
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
+type$ -- 326
 warning$ -- 1
-while$ -- 251
-width$ -- 67
-write$ -- 715
+while$ -- 317
+width$ -- 84
+write$ -- 902
 (There were 2 error messages)

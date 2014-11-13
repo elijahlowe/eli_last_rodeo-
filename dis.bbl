@@ -11,6 +11,13 @@ C.~T. Brown, A.~Howe, Q.~Zhang, A.~B. Pyrkosz, and T.~H. Brom.
   sequencing data.
 \newblock {arXiv} e-print 1203.4802, Mar. 2012.
 
+\bibitem{brudno_lagan_2003}
+M.~Brudno, C.~B. Do, G.~M. Cooper, M.~F. Kim, E.~Davydov, {NISC Comparative
+  Sequencing Program}, E.~D. Green, A.~Sidow, and S.~Batzoglou.
+\newblock {LAGAN} and multi-{LAGAN}: efficient tools for large-scale multiple
+  alignment of genomic {DNA}.
+\newblock {\em Genome Research}, 13(4):721--731, Apr. 2003.
+
 \bibitem{conklin_organization_1905}
 E.~G. Conklin.
 \newblock {\em The organization and cell-lineage of the ascidian egg}.
@@ -47,6 +54,12 @@ A.~Di~Gregorio, R.~M. Harland, M.~Levine, and E.~S. Casey.
   cooperation between notochord and muscle.
 \newblock {\em Developmental biology}, 244(2):385--95, Apr. 2002.
 
+\bibitem{frazer_vista:_2004}
+K.~A. Frazer, L.~Pachter, A.~Poliakov, E.~M. Rubin, and I.~Dubchak.
+\newblock {VISTA}: computational tools for comparative genomics.
+\newblock {\em Nucleic Acids Research}, 32(Web Server issue):W273--279, July
+  2004.
+
 \bibitem{glenn_field_2011}
 T.~C. Glenn.
 \newblock Field guide to next-generation {DNA} sequencers.
@@ -60,6 +73,12 @@ M.~G. Grabherr, B.~J. Haas, M.~Yassour, J.~Z. Levin, D.~a. Thompson, I.~Amit,
 \newblock Full-length transcriptome assembly from {RNA}-seq data without a
   reference genome.
 \newblock {\em Nature biotechnology}, 29(7):644--52, July 2011.
+
+\bibitem{gyoja_analysis_2007}
+F.~Gyoja, Y.~Satou, T.~Shin-i, Y.~Kohara, B.~J. Swalla, and N.~Satoh.
+\newblock Analysis of large scale expression sequenced tags ({ESTs}) from the
+  anural ascidian, molgula tectiformis.
+\newblock {\em Developmental biology}, 307(2):460--82, July 2007.
 
 \bibitem{haas_novo_2013}
 B.~J. Haas, A.~Papanicolaou, M.~Yassour, M.~Grabherr, P.~D. Blood, J.~Bowden,
@@ -76,6 +95,13 @@ H.~Hashimoto, T.~Enomoto, G.~Kumano, and H.~Nishida.
   competence for notochord induction in ascidian embryos.
 \newblock {\em Development}, 138(14):3091--3091, June 2011.
 
+\bibitem{hotta_characterization_2000}
+K.~Hotta, H.~Takahashi, T.~Asakura, B.~Saitoh, N.~Takatori, Y.~Satou, and
+  N.~Satoh.
+\newblock Characterization of brachyury-downstream notochord genes in the ciona
+  intestinalis embryo.
+\newblock {\em Developmental biology}, 224(1):69--80, Aug. 2000.
+
 \bibitem{hotta_temporal_1999}
 K.~Hotta, H.~Takahashi, a.~Erives, M.~Levine, and N.~Satoh.
 \newblock Temporal expression patterns of 39 brachyury-downstream genes
@@ -88,6 +114,19 @@ J.~L. Huber, K.~B. da~Silva, W.~R. Bates, and B.~J. Swalla.
 \newblock The evolution of anural larvae in molgulid ascidians.
 \newblock {\em Seminars in cell \& developmental biology}, 11(6):419--26, Dec.
   2000.
+
+\bibitem{ikuta_ciona_2004}
+T.~Ikuta, N.~Yoshida, N.~Satoh, and H.~Saiga.
+\newblock Ciona intestinalis hox gene cluster: Its dispersed structure and
+  residual colinear expression in development.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 101(42):15118--15123, Oct. 2004.
+
+\bibitem{imai_early_2002}
+K.~S. Imai, N.~Satoh, and Y.~Satou.
+\newblock Early embryonic expression of {FGF}4/6/9 gene and its role in the
+  induction of mesenchyme and notochord in ciona savignyi embryos.
+\newblock {\em Development (Cambridge, England)}, 129(7):1729--38, Apr. 2002.
 
 \bibitem{jeffery_factors_1992}
 Jeffery, R.~billie, and J.~Swalla.
@@ -117,6 +156,31 @@ D.~Jiang, E.~M. Munro, W.~C. Smith, S.~Barbara, and F.~Harbor.
 \newblock Ascidian prickle regulates both mediolateral and anterior-posterior
   cell polarity of notochord cells.
 \newblock {\em Current biology}, 15:79--85, 2005.
+
+\bibitem{katoh_mafft_2013}
+K.~Katoh and D.~M. Standley.
+\newblock {MAFFT} multiple sequence alignment software version 7: improvements
+  in performance and usability.
+\newblock {\em Molecular Biology and Evolution}, 30(4):772--780, Apr. 2013.
+
+\bibitem{katoh_parttree:_2007}
+K.~Katoh and H.~Toh.
+\newblock {PartTree}: an algorithm to build an approximate tree from a large
+  number of unaligned sequences.
+\newblock {\em Bioinformatics (Oxford, England)}, 23(3):372--374, Feb. 2007.
+
+\bibitem{kobayashi_differential_2013}
+K.~Kobayashi, L.~Yamada, and N.~Satoh.
+\newblock Differential gene expression in notochord and nerve cord fate
+  segregation in the ciona intestinalis embryo.
+\newblock {\em Genesis}, 51(9):647--659, 2013.
+
+\bibitem{kourakis_one-dimensional_2014}
+M.~J. Kourakis, W.~Reeves, E.~Newman-Smith, B.~Maury, S.~Abdul-Wajid, and W.~C.
+  Smith.
+\newblock A one-dimensional model of {PCP} signaling: Polarized cell behavior
+  in the notochord of the ascidian ciona.
+\newblock {\em Developmental Biology}, 395(1):120--130, Nov. 2014.
 
 \bibitem{kugler_evolutionary_2011}
 J.~E. Kugler, P.~Kerner, J.-M. Bouquet, D.~Jiang, and A.~Di~Gregorio.
@@ -177,10 +241,23 @@ M.~E. Maliska and B.~J. Swalla.
   roscovita clade of molgulids.
 \newblock {\em The Biological Bulletin}, 219(3):277--282, Dec. 2010.
 
+\bibitem{marioni_rna-seq:_2008}
+J.~C. Marioni, C.~E. Mason, S.~M. Mane, M.~Stephens, and Y.~Gilad.
+\newblock {RNA}-seq: An assessment of technical reproducibility and comparison
+  with gene expression arrays.
+\newblock {\em Genome Research}, 18(9):1509--1517, Sept. 2008.
+
 \bibitem{martin_next-generation_2011}
 J.~a. Martin and Z.~Wang.
 \newblock Next-generation transcriptome assembly.
 \newblock {\em Nature reviews. Genetics}, 12(10):671--82, Oct. 2011.
+
+\bibitem{mayor_vista_2000}
+C.~Mayor, M.~Brudno, J.~R. Schwartz, A.~Poliakov, E.~M. Rubin, K.~A. Frazer,
+  L.~S. Pachter, and I.~Dubchak.
+\newblock {VISTA} : visualizing global {DNA} sequence alignments of arbitrary
+  length.
+\newblock {\em Bioinformatics}, 16(11):1046--1047, Nov. 2000.
 
 \bibitem{minokawa_binary_2001}
 T.~Minokawa, K.~Yagi, K.~W. Makabe, and H.~Nishida.
@@ -242,6 +319,13 @@ M.~Pop.
 \newblock Genome assembly reborn: recent computational challenges.
 \newblock {\em Briefings in Bioinformatics}, 10(4):354--366, July 2009.
 
+\bibitem{quail_tale_2012}
+M.~A. Quail, M.~Smith, P.~Coupland, T.~D. Otto, S.~R. Harris, T.~R. Connor,
+  A.~Bertoni, H.~P. Swerdlow, and Y.~Gu.
+\newblock A tale of three next generation sequencing platforms: comparison of
+  ion torrent, pacific biosciences and illumina {MiSeq} sequencers.
+\newblock {\em {BMC} genomics}, 13:341, 2012.
+
 \bibitem{satoh_ascidian_2001}
 N.~Satoh.
 \newblock Ascidian embryos as a model system to analyze expression and function
@@ -260,6 +344,16 @@ N.~Satoh and M.~Levine.
 \newblock Surfing with the tunicates into the post-genome era.
 \newblock {\em Genes \& development}, 19(20):2407--11, Oct. 2005.
 
+\bibitem{satou_improved_2008}
+Y.~Satou, K.~Mineta, M.~Ogasawara, Y.~Sasakura, E.~Shoguchi, K.~Ueno,
+  L.~Yamada, J.~Matsumoto, J.~Wasserscheid, K.~Dewar, G.~B. Wiley, S.~L.
+  Macmil, B.~A. Roe, R.~W. Zeller, K.~E.~M. Hastings, P.~Lemaire, E.~Lindquist,
+  T.~Endo, K.~Hotta, and K.~Inaba.
+\newblock Improved genome assembly and evidence-based global gene model set for
+  the chordate ciona intestinalis: new insight into intron and operon
+  populations.
+\newblock {\em Genome Biology}, 9(10):R152, 2008.
+
 \bibitem{schulz_oases:_2012}
 M.~H. Schulz, D.~R. Zerbino, M.~Vingron, and E.~Birney.
 \newblock Oases: robust de novo {RNA}-seq assembly across the dynamic range of
@@ -274,6 +368,11 @@ E.~M. Schwarz, P.~K. Korhonen, B.~E. Campbell, N.~D. Young, A.~R. Jex,
 \newblock The genome and developmental transcriptome of the strongylid nematode
   haemonchus contortus.
 \newblock {\em Genome Biology}, 14(8):R89, Aug. 2013.
+
+\bibitem{siok_biological_2004}
+W.~T. Siok, C.~A. Perfetti, Z.~Jin, and L.~H. Tan.
+\newblock Biological abnormality of impaired reading is constrained by culture.
+\newblock {\em Nature}, 431(7004):71--76, Sept. 2004.
 
 \bibitem{stach_phylogeny_2002}
 T.~Stach and J.~M. Turbeville.
@@ -379,6 +478,19 @@ J.~P. Vinson, D.~B. Jaffe, K.~O'Neill, E.~K. Karlsson, N.~Stange-Thomann,
 \newblock Assembly of polymorphic genomes: algorithms and application to ciona
   savignyi.
 \newblock {\em Genome research}, 15(8):1127--1135, Aug. 2005.
+
+\bibitem{visel_vista_2007}
+A.~Visel, S.~Minovitsky, I.~Dubchak, and L.~a. Pennacchio.
+\newblock {VISTA} enhancer browser–a database of tissue-specific human
+  enhancers.
+\newblock {\em Nucleic acids research}, 35(Database issue):D88--92, Jan. 2007.
+
+\bibitem{wada_details_1994}
+H.~Wada and N.~Satoh.
+\newblock Details of the evolutionary history from invertebrates to
+  vertebrates, as deduced from the sequences of 18s {rDNA}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 91(5):1801--1804, Mar. 1994.
 
 \bibitem{wang_rna-seq:_2009}
 Z.~Wang, M.~Gerstein, and M.~Snyder.

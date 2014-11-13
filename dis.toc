@@ -3,8 +3,8 @@
 \contentsline {chapter}{\numberline {Chapter 1}Background}{1}
 \contentsline {chapter}{\numberline {Chapter 2}Literature Review}{4}
 \contentsline {section}{\numberline {2.1}Ascidian tail development}{4}
-\contentsline {section}{\numberline {2.2}Brachyury has been shown to be the }{6}
-\contentsline {section}{\numberline {2.3}Assembling and analyzing data}{8}
+\contentsline {section}{\numberline {2.2}Brachyury has been shown to be the }{7}
+\contentsline {section}{\numberline {2.3}Assembling and analyzing data}{9}
 \contentsline {chapter}{\numberline {Chapter 3}Evaluating a lightweight transcriptome assembly pipeline on two closely related ascidian species}{11}
 \contentsline {section}{\numberline {3.1}Introduction}{11}
 \contentsline {section}{\numberline {3.2}Methods}{13}
@@ -38,15 +38,15 @@
 \contentsline {subsection}{\numberline {4.3.1}Genome assemblies assessment}{35}
 \contentsline {subsection}{\numberline {4.3.2}Divergence of GRN}{37}
 \contentsline {subsection}{\numberline {4.3.3}Gene complexes}{38}
-\contentsline {section}{\numberline {4.4}Discussion and Conculsion}{39}
-\contentsline {chapter}{\numberline {Chapter 5}Tail loss?}{40}
-\contentsline {section}{\numberline {5.1}Introduction}{40}
-\contentsline {section}{\numberline {5.2}Methods}{42}
-\contentsline {subsection}{\numberline {5.2.1}Sample collection, sequencing and assembly}{42}
-\contentsline {subsection}{\numberline {5.2.2}Gene counts and differential expression analysis}{43}
-\contentsline {section}{\numberline {5.3}Results}{43}
-\contentsline {subsection}{\numberline {5.3.1}\textit {M. occulta} and \textit {M. oculata} have strong overlap in gene presence}{43}
-\contentsline {subsection}{\numberline {5.3.2}Notochord gene network}{43}
-\contentsline {subsection}{\numberline {5.3.3}Prelliminary results: EdgeR differential expression analysis by stage}{44}
-\contentsline {chapter}{\numberline {Chapter 6}Conclusions}{47}
-\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{48}
+\contentsline {section}{\numberline {4.4}Discussion and Conculsion}{40}
+\contentsline {chapter}{\numberline {Chapter 5}Tail loss?}{41}
+\contentsline {section}{\numberline {5.1}Introduction}{41}
+\contentsline {section}{\numberline {5.2}Methods}{43}
+\contentsline {subsection}{\numberline {5.2.1}Sample collection, sequencing and assembly}{43}
+\contentsline {subsection}{\numberline {5.2.2}Gene counts and differential expression analysis}{44}
+\contentsline {section}{\numberline {5.3}Results}{44}
+\contentsline {subsection}{\numberline {5.3.1}\textit {M. occulta} and \textit {M. oculata} have strong overlap in gene presence}{44}
+\contentsline {subsection}{\numberline {5.3.2}Notochord gene network}{44}
+\contentsline {subsection}{\numberline {5.3.3}Prelliminary results: EdgeR differential expression analysis by stage}{45}
+\contentsline {chapter}{\numberline {Chapter 6}Conclusions}{48}
+\contentsline {chapter}{\textbf {APPENDIX}\textmd {\leaders \hbox to 1em{\hss .\hss }\hfill }}{49}
