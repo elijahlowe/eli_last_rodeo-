@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2014 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2014 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -460,8 +460,8 @@ File: figures/noto_cells.pdf Graphic file (type pdf)
 <use figures/noto_cells.pdf>
 Package pdftex.def Info: figures/noto_cells.pdf used on input line 8.
 (pdftex.def)             Requested size: 346.79477pt x 48.68175pt.
- [5 <./figures/noto_cells.pdf>] [6] [7] [8])
-(./comp.tex [9] [10]
+ [5 <./figures/noto_cells.pdf>] [6] [7] [8]
+[9]) (./comp.tex [10]
 Chapter 3.
 [11
 
@@ -694,22 +694,25 @@ Chapter 6.
 Missing character: There is no Ã in font cmr12!
  [51
 
-] [52] [53] [54] [55]
+]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [52] [53] [54] [55]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [56]
-[57]
+[57] [58]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [58])
+ [59])
 
 Package natbib Warning: There were undefined citations.
 
-[59] (./dis.aux)
+[60] (./dis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -718,13 +721,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5373 strings out of 493117
- 83856 string characters out of 6135433
- 146913 words of memory out of 5000000
- 8706 multiletter control sequences out of 15000+600000
+ 5397 strings out of 493117
+ 84594 string characters out of 6135433
+ 147044 words of memory out of 5000000
+ 8730 multiletter control sequences out of 15000+600000
  9465 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,10n,47p,3355b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,10n,47p,3355b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -735,10 +738,10 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (69 pages, 8053739 bytes).
+Output written on dis.pdf (70 pages, 8059868 bytes).
 PDF statistics:
- 1506 PDF objects out of 1728 (max. 8388607)
- 885 compressed objects within 9 object streams
+ 1509 PDF objects out of 1728 (max. 8388607)
+ 887 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

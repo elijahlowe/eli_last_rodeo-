@@ -1,4 +1,10 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{bassham_brachyury_2000}
+S.~Bassham and J.~Postlethwait.
+\newblock Brachyury (t) expression in embryos of a larvacean urochordate,
+  oikopleura dioica, and the ancestral role of t.
+\newblock {\em Developmental Biology}, 220(2):322--332, Apr. 2000.
 
 \bibitem{berrill_studies_1931}
 N.~J. BERRILL.
@@ -68,6 +74,22 @@ P.~Dehal, Y.~Satou, R.~K. Campbell, J.~Chapman, B.~Degnan, A.~D. Tomaso,
 \newblock The draft genome of ciona intestinalis: Insights into chordate and
   vertebrate origins.
 \newblock {\em Science}, 298(5601):2157--2167, Dec. 2002.
+
+\bibitem{denoeud_plasticity_2010}
+F.~Denoeud, S.~Henriet, S.~Mungpakdee, J.-M. Aury, C.~D. Silva, H.~Brinkmann,
+  J.~Mikhaleva, L.~C. Olsen, C.~Jubin, C.~Cañestro, J.-M. Bouquet, G.~Danks,
+  J.~Poulain, C.~Campsteijn, M.~Adamski, I.~Cross, F.~Yadetie, M.~Muffato,
+  A.~Louis, S.~Butcher, G.~Tsagkogeorga, A.~Konrad, S.~Singh, M.~F. Jensen,
+  E.~H. Cong, H.~Eikeseth-Otteraa, B.~Noel, V.~Anthouard, B.~M. Porcel,
+  R.~Kachouri-Lafond, A.~Nishino, M.~Ugolini, P.~Chourrout, H.~Nishida,
+  R.~Aasland, S.~Huzurbazar, E.~Westhof, F.~Delsuc, H.~Lehrach, R.~Reinhardt,
+  J.~Weissenbach, S.~W. Roy, F.~Artiguenave, J.~H. Postlethwait, J.~R. Manak,
+  E.~M. Thompson, O.~Jaillon, L.~D. Pasquier, P.~Boudinot, D.~A. Liberles,
+  J.-N. Volff, H.~Philippe, B.~Lenhard, H.~R. Crollius, P.~Wincker, and
+  D.~Chourrout.
+\newblock Plasticity of animal genome architecture unmasked by rapid evolution
+  of a pelagic tunicate.
+\newblock {\em Science}, 330(6009):1381--1385, Dec. 2010.
 
 \bibitem{di_gregorio_tail_2002}
 A.~Di~Gregorio, R.~M. Harland, M.~Levine, and E.~S. Casey.
@@ -142,6 +164,13 @@ K.~Hotta, H.~Takahashi, a.~Erives, M.~Levine, and N.~Satoh.
   associated with notochord formation in the ciona intestinalis embryo.
 \newblock {\em Development, growth \& differentiation}, 41(6):657--64, Dec.
   1999.
+
+\bibitem{hotta_brachyury-downstream_2007}
+K.~Hotta, S.~Yamada, N.~Ueno, N.~Satoh, and H.~Takahashi.
+\newblock Brachyury-downstream notochord genes and convergent extension in
+  ciona intestinalis embryos.
+\newblock {\em Development, Growth \& Differentiation}, 49(5):373--382, June
+  2007.
 
 \bibitem{howe_tackling_2014}
 A.~C. Howe, J.~K. Jansson, S.~A. Malfatti, S.~G. Tringe, J.~M. Tiedje, and
@@ -237,6 +266,13 @@ J.~E. Kugler, P.~Kerner, J.-M. Bouquet, D.~Jiang, and A.~Di~Gregorio.
   oikopleura.
 \newblock {\em {BMC} evolutionary biology}, 11(1):21, Jan. 2011.
 
+\bibitem{kugler_evolutionary_2008}
+J.~E. Kugler, Y.~J. Passamaneck, T.~G. Feldman, J.~Beh, T.~W. Regnier, and
+  A.~Di~Gregorio.
+\newblock Evolutionary conservation of vertebrate notochord genes in the
+  ascidian ciona intestinalis.
+\newblock {\em Genesis (New York, N.Y. : 2000)}, 46(11):697--710, Nov. 2008.
+
 \bibitem{laird_chromatid_1971}
 C.~D. Laird.
 \newblock Chromatid structure: relationship between {DNA} content and
@@ -284,6 +320,11 @@ W.~Li and A.~Godzik.
   protein or nucleotide sequences.
 \newblock {\em Bioinformatics}, 22(13):1658--1659, July 2006.
 
+\bibitem{liu_comparison_2012}
+L.~Liu, Y.~Li, S.~Li, N.~Hu, Y.~He, R.~Pong, D.~Lin, L.~Lu, and M.~Law.
+\newblock Comparison of next-generation sequencing systems.
+\newblock {\em {BioMed} Research International}, 2012:e251364, July 2012.
+
 \bibitem{lohse_robina:_2012}
 M.~Lohse, A.~M. Bolger, A.~Nagel, A.~R. Fernie, J.~E. Lunn, M.~Stitt, and
   B.~Usadel.
@@ -325,6 +366,11 @@ W.~McGinnis and R.~Krumlauf.
 \newblock Homeobox genes and axial patterning.
 \newblock {\em Cell}, 68(2):283--302, Jan. 1992.
 
+\bibitem{metzker_emerging_2005}
+M.~L. Metzker.
+\newblock Emerging technologies in {DNA} sequencing.
+\newblock {\em Genome Research}, 15(12):1767--1776, Dec. 2005.
+
 \bibitem{minokawa_binary_2001}
 T.~Minokawa, K.~Yagi, K.~W. Makabe, and H.~Nishida.
 \newblock Binary specification of nerve cord and notochord cell fates in
@@ -355,6 +401,13 @@ H.~Nishida.
 \newblock Cell lineage analysis in ascidian embryos by intracellular injection
   of a tracer enzyme: {III}. up to the tissue restricted stage.
 \newblock {\em Developmental Biology}, 121(2):526--541, June 1987.
+
+\bibitem{nishida_development_2008}
+H.~Nishida.
+\newblock Development of the appendicularian oikopleura dioica: culture,
+  genome, and cell lineages.
+\newblock {\em Development, Growth \& Differentiation}, 50 Suppl 1:S239--256,
+  June 2008.
 
 \bibitem{nishida_cell_1983}
 H.~Nishida and N.~Satoh.
@@ -439,6 +492,12 @@ E.~M. Schwarz, P.~K. Korhonen, B.~E. Campbell, N.~D. Young, A.~R. Jex,
 \newblock The genome and developmental transcriptome of the strongylid nematode
   haemonchus contortus.
 \newblock {\em Genome Biology}, 14(8):R89, Aug. 2013.
+
+\bibitem{seo_miniature_2001}
+H.-C. Seo, M.~Kube, R.~B. Edvardsen, M.~F. Jensen, A.~Beck, E.~Spriet,
+  G.~Gorsky, E.~M. Thompson, H.~Lehrach, R.~Reinhardt, and D.~Chourrout.
+\newblock Miniature genome in the marine chordate oikopleura dioica.
+\newblock {\em Science}, 294(5551):2506--2506, Dec. 2001.
 
 \bibitem{simmen_gene_1998}
 M.~W. Simmen, S.~Leitgeb, V.~H. Clark, S.~J. Jones, and A.~Bird.
