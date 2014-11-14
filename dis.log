@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2014 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2014 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,18 +454,14 @@ Chapter 1.
 Chapter 2.
 [4
 
-] <figures/noto_cells.pdf, id=54, 693.59125pt x 97.36375pt>
+] <figures/noto_cells.pdf, id=53, 693.59125pt x 97.36375pt>
 File: figures/noto_cells.pdf Graphic file (type pdf)
 
 <use figures/noto_cells.pdf>
-Package pdftex.def Info: figures/noto_cells.pdf used on input line 9.
+Package pdftex.def Info: figures/noto_cells.pdf used on input line 8.
 (pdftex.def)             Requested size: 346.79477pt x 48.68175pt.
-
-
-Package natbib Warning: Citation `lauri_development_2014' on page 5 undefined o
-n input line 15.
-
-[5 <./figures/noto_cells.pdf>] [6] [7] [8] [9]) (./comp.tex [10]
+ [5 <./figures/noto_cells.pdf>] [6] [7] [8])
+(./comp.tex [9] [10]
 Chapter 3.
 [11
 
@@ -722,13 +718,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5374 strings out of 493117
- 83892 string characters out of 6135433
+ 5373 strings out of 493117
+ 83856 string characters out of 6135433
  146913 words of memory out of 5000000
- 8707 multiletter control sequences out of 15000+600000
+ 8706 multiletter control sequences out of 15000+600000
  9465 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,10n,47p,2854b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,10n,47p,3355b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -739,7 +735,7 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (69 pages, 8054562 bytes).
+Output written on dis.pdf (69 pages, 8053739 bytes).
 PDF statistics:
  1506 PDF objects out of 1728 (max. 8388607)
  885 compressed objects within 9 object streams

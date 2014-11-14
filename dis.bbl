@@ -117,6 +117,12 @@ B.~J. Haas, A.~Papanicolaou, M.~Yassour, M.~Grabherr, P.~D. Blood, J.~Bowden,
   trinity platform for reference generation and analysis.
 \newblock {\em Nat. Protocols}, 8(8):1494--1512, Aug. 2013.
 
+\bibitem{hadfield_multiple_1995}
+K.~A. Hadfield, B.~J. Swalla, and W.~R. Jeffery.
+\newblock Multiple origins of anural development in ascidians inferred from
+  {rDNA} sequences.
+\newblock {\em Journal of Molecular Evolution}, 40(4):413--427, Apr. 1995.
+
 \bibitem{hashimoto_transcription_2011}
 H.~Hashimoto, T.~Enomoto, G.~Kumano, and H.~Nishida.
 \newblock The transcription factor {FoxB} mediates temporal loss of cellular
@@ -163,12 +169,6 @@ T.~Ikuta, N.~Yoshida, N.~Satoh, and H.~Saiga.
   residual colinear expression in development.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 101(42):15118--15123, Oct. 2004.
-
-\bibitem{imai_early_2002}
-K.~S. Imai, N.~Satoh, and Y.~Satou.
-\newblock Early embryonic expression of {FGF}4/6/9 gene and its role in the
-  induction of mesenchyme and notochord in ciona savignyi embryos.
-\newblock {\em Development (Cambridge, England)}, 129(7):1729--38, Apr. 2002.
 
 \bibitem{jeffery_factors_1992}
 Jeffery, R.~billie, and J.~Swalla.
@@ -230,12 +230,6 @@ M.~J. Kourakis, W.~Reeves, E.~Newman-Smith, B.~Maury, S.~Abdul-Wajid, and W.~C.
   in the notochord of the ascidian ciona.
 \newblock {\em Developmental Biology}, 395(1):120--130, Nov. 2014.
 
-\bibitem{kristen_a._hadfield_multiple_1995}
-B.~J.~S. Kristen A.~Hadfield.
-\newblock Multiple origins of anural development in ascidians inferred from
-  {rDNA} sequences.
-\newblock 40(4):413--427, 1995.
-
 \bibitem{kugler_evolutionary_2011}
 J.~E. Kugler, P.~Kerner, J.-M. Bouquet, D.~Jiang, and A.~Di~Gregorio.
 \newblock Evolutionary changes in the notochord genetic toolkit: a comparative
@@ -253,6 +247,13 @@ C.~D. Laird.
 B.~Langmead and S.~L. Salzberg.
 \newblock Fast gapped-read alignment with bowtie 2.
 \newblock {\em Nature Methods}, 9(4):357--359, Apr. 2012.
+
+\bibitem{lauri_development_2014}
+A.~Lauri, T.~Brunet, M.~Handberg-Thorsager, A.~H.~L. Fischer, O.~Simakov,
+  P.~R.~H. Steinmetz, R.~Tomer, P.~J. Keller, and D.~Arendt.
+\newblock Development of the annelid axochord: Insights into notochord
+  evolution.
+\newblock {\em Science}, 345(6202):1365--1368, Sept. 2014.
 
 \bibitem{lemaire_unfolding_2009}
 P.~Lemaire.
@@ -614,7 +615,6 @@ D.~R. Zerbino and E.~Birney.
 \bibitem{zhang_impact_2011}
 J.~Zhang, R.~Chiodini, A.~Badr, and G.~Zhang.
 \newblock The impact of next-generation sequencing on genomics.
-\newblock {\em Journal of genetics and genomics = Yi chuan xue bao},
-  38(3):95--109, Mar. 2011.
+\newblock {\em Journal of genetics and genomics}, 38(3):95--109, Mar. 2011.
 
 \end{thebibliography}
