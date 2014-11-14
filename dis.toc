@@ -30,15 +30,15 @@
 \contentsline {section}{\numberline {3.5}Conclusions}{29}
 \contentsline {chapter}{\numberline {Chapter 4}Genome assembly and characterization}{31}
 \contentsline {section}{\numberline {4.1}Introduction}{31}
-\contentsline {section}{\numberline {4.2}Materials and methods}{33}
-\contentsline {subsection}{\numberline {4.2.1}Genomic DNA library preparation and sequencing}{33}
+\contentsline {section}{\numberline {4.2}Materials and methods}{32}
+\contentsline {subsection}{\numberline {4.2.1}Genomic DNA library preparation and sequencing}{32}
 \contentsline {subsection}{\numberline {4.2.2}Genome sequence assembly}{34}
-\contentsline {subsection}{\numberline {4.2.3}Gene identification and alignments}{35}
+\contentsline {subsection}{\numberline {4.2.3}Gene identification and alignments}{34}
 \contentsline {section}{\numberline {4.3}Results}{35}
 \contentsline {subsection}{\numberline {4.3.1}Genome assemblies assessment}{35}
-\contentsline {subsection}{\numberline {4.3.2}Divergence of GRN}{37}
-\contentsline {subsection}{\numberline {4.3.3}Gene complexes}{38}
-\contentsline {section}{\numberline {4.4}Discussion and Conculsion}{40}
+\contentsline {subsection}{\numberline {4.3.2}Gene complexes}{36}
+\contentsline {subsection}{\numberline {4.3.3}Divergence of GRN}{39}
+\contentsline {section}{\numberline {4.4}Discussion and Conculsion}{39}
 \contentsline {chapter}{\numberline {Chapter 5}Tail loss?}{41}
 \contentsline {section}{\numberline {5.1}Introduction}{41}
 \contentsline {section}{\numberline {5.2}Methods}{43}

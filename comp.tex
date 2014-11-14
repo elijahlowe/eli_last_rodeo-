@@ -35,7 +35,7 @@ Digital normalization (diginorm) is a technique that down samples reads from hig
 \centering
 \includegraphics[scale=1.0]{manuscript/Table1.pdf}
 \caption{\textbf{Digitally normalized reads.} The number of reads sequenced before and after digital normalization are shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit{M. occulta} had approximately \mytilde237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit{M. oculata} had 150 million reads and reduced by 77\% to \mytilde50 million reads. }
-\label{fig:Table1.pdf}
+\label{table:Table1.pdf}
 \end{table}
 
 \subsection{Transcriptome assembly}
@@ -65,13 +65,13 @@ The difference in assembly time and memory between diginorm and raw reads was no
 \end{figure}
   
 \subsection{Assembly statistics varied by preprocessing approach and assembler}
-Oases run with the diginormed reads yielded fewer total transcripts than Oases run with the unnormalized reads. The \textit{M. oculata} diginorm assembly produced 300 fewer transcripts, and the \textit{M. occulta} diginorm assembly produced 227 fewer transcripts (Table~\ref{fig:Table2.pdf}). Digital normalization had the opposite affect when using Trinity for assembly, increasing the total number of assembled transcripts by 7,840 for \textit{M. oculata} and 9,197 for \textit{M. occulta}.
+Oases run with the diginormed reads yielded fewer total transcripts than Oases run with the unnormalized reads. The \textit{M. oculata} diginorm assembly produced 300 fewer transcripts, and the \textit{M. occulta} diginorm assembly produced 227 fewer transcripts (Table~\ref{table:Table2.pdf}). Digital normalization had the opposite affect when using Trinity for assembly, increasing the total number of assembled transcripts by 7,840 for \textit{M. oculata} and 9,197 for \textit{M. occulta}.
 
 \begin{table}[tbp]
 \centering
 \includegraphics[width=\linewidth]{manuscript/Table2.pdf}
 \caption{\textbf{Transcriptome metrics.} Several metrics used to assess the assembled transcriptomes. The N50, mean transcript length, total number of transcripts and total number of base pairs are listed for each transcriptomes.}
-\label{fig:Table2.pdf}
+\label{table:Table2.pdf}
 \end{table}
    
 Trinity produces 6.8k (7.6\%) more transcripts than Oases for \textit{M. occulta} using the digitally normalized reads, and a 2.6k (2.9\%) decrease in the number of transcripts using the unnormalized reads. Trinity assembled more transcripts for both \textit{M. oculata} assemblies, a 17.6k (44.8\%) increase for diginorm and a 9.5k (24\%) increase for the raw reads. 

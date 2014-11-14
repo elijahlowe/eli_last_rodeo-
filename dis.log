@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 NOV 2014 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2014 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,14 +454,18 @@ Chapter 1.
 Chapter 2.
 [4
 
-] <figures/noto_cells.pdf, id=53, 693.59125pt x 97.36375pt>
+] <figures/noto_cells.pdf, id=54, 693.59125pt x 97.36375pt>
 File: figures/noto_cells.pdf Graphic file (type pdf)
 
 <use figures/noto_cells.pdf>
-Package pdftex.def Info: figures/noto_cells.pdf used on input line 10.
+Package pdftex.def Info: figures/noto_cells.pdf used on input line 9.
 (pdftex.def)             Requested size: 346.79477pt x 48.68175pt.
- [5 <./figures/noto_cells.pdf>] [6] [7] [8]
-[9]) (./comp.tex [10]
+
+
+Package natbib Warning: Citation `lauri_development_2014' on page 5 undefined o
+n input line 15.
+
+[5 <./figures/noto_cells.pdf>] [6] [7] [8] [9]) (./comp.tex [10]
 Chapter 3.
 [11
 
@@ -630,7 +634,7 @@ nput line 3.
 File: figures/adults.pdf Graphic file (type pdf)
 
 <use figures/adults.pdf>
-Package pdftex.def Info: figures/adults.pdf used on input line 14.
+Package pdftex.def Info: figures/adults.pdf used on input line 9.
 (pdftex.def)             Requested size: 196.73451pt x 181.17642pt.
 Missing character: There is no × in font cmr12!
  [32] [33 <./figures/adults.pdf>] [34]
@@ -638,27 +642,23 @@ Missing character: There is no × in font cmr12!
 File: figures/genome_table_1.pdf Graphic file (type pdf)
 
 <use figures/genome_table_1.pdf>
-Package pdftex.def Info: figures/genome_table_1.pdf used on input line 33.
+Package pdftex.def Info: figures/genome_table_1.pdf used on input line 28.
 (pdftex.def)             Requested size: 469.75502pt x 68.40787pt.
- [35] [36 <./figures/genome_table_1.pdf>]
-<figures/Hox12_13.pdf, id=778, 761.24207pt x 291.35832pt>
+ [35]
+<figures/Hox12_13.pdf, id=762, 761.24207pt x 291.35832pt>
 File: figures/Hox12_13.pdf Graphic file (type pdf)
 
 <use figures/Hox12_13.pdf>
-Package pdftex.def Info: figures/Hox12_13.pdf used on input line 44.
-(pdftex.def)             Requested size: 418.68443pt x 160.24756pt.
- [37] [38 <./figures/Hox12_13.pdf>]
-
-Package natbib Warning: Citation `McGinnis 1992' on page 39 undefined on input 
-line 53.
-
-<figures/hox.pdf, id=805, 709.65125pt x 298.11375pt>
+Package pdftex.def Info: figures/Hox12_13.pdf used on input line 37.
+(pdftex.def)             Requested size: 456.74876pt x 174.81633pt.
+ [36 <./figures/genome_table_1.pdf>] [37 <./figures/Hox12_13.pdf>] <figures/hox
+.pdf, id=802, 709.65125pt x 298.11375pt>
 File: figures/hox.pdf Graphic file (type pdf)
- <use figures/hox.pdf>
-Package pdftex.def Info: figures/hox.pdf used on input line 57.
+
+<use figures/hox.pdf>
+Package pdftex.def Info: figures/hox.pdf used on input line 50.
 (pdftex.def)             Requested size: 461.26784pt x 193.77164pt.
-)
-(./tail.tex [39 <./figures/hox.pdf>] [40]
+ [38 <./figures/hox.pdf>]) (./tail.tex [39] [40]
 Chapter 5.
 [41
 
@@ -694,24 +694,26 @@ Chapter 6.
 
 ] (./gloss.tex) (./dis.bbl [50
 
-] [51
+]
+Missing character: There is no Ã in font cmr12!
+ [51
 
-] [52] [53] [54]
+] [52] [53] [54] [55]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [55] [56]
+ [56]
+[57]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-
-[57])
+ [58])
 
 Package natbib Warning: There were undefined citations.
 
-[58] (./dis.aux)
+[59] (./dis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -720,13 +722,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5339 strings out of 493117
- 82832 string characters out of 6135433
- 146721 words of memory out of 5000000
- 8672 multiletter control sequences out of 15000+600000
+ 5374 strings out of 493117
+ 83892 string characters out of 6135433
+ 146913 words of memory out of 5000000
+ 8707 multiletter control sequences out of 15000+600000
  9465 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,10n,47p,2436b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,10n,47p,2854b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -737,10 +739,10 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (68 pages, 8045972 bytes).
+Output written on dis.pdf (69 pages, 8054562 bytes).
 PDF statistics:
- 1503 PDF objects out of 1728 (max. 8388607)
- 883 compressed objects within 9 object streams
+ 1506 PDF objects out of 1728 (max. 8388607)
+ 885 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

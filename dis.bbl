@@ -5,6 +5,27 @@ N.~J. BERRILL.
 \newblock Studies in tunicate developnent.
 \newblock {\em Society}, 219:281--346, 1931.
 
+\bibitem{bradnam_assemblathon_2013}
+K.~R. Bradnam, J.~N. Fass, A.~Alexandrov, P.~Baranay, M.~Bechner, I.~Birol,
+  S.~Boisvert, J.~A. Chapman, G.~Chapuis, R.~Chikhi, H.~Chitsaz, W.-C. Chou,
+  J.~Corbeil, C.~D. Fabbro, T.~R. Docking, R.~Durbin, D.~Earl, S.~Emrich,
+  P.~Fedotov, N.~A. Fonseca, G.~Ganapathy, R.~A. Gibbs, S.~Gnerre,
+  Ã.~Godzaridis, S.~Goldstein, M.~Haimel, G.~Hall, D.~Haussler, J.~B. Hiatt,
+  I.~Y. Ho, J.~Howard, M.~Hunt, S.~D. Jackman, D.~B. Jaffe, E.~D. Jarvis,
+  H.~Jiang, S.~Kazakov, P.~J. Kersey, J.~O. Kitzman, J.~R. Knight, S.~Koren,
+  T.-W. Lam, D.~Lavenier, F.~Laviolette, Y.~Li, Z.~Li, B.~Liu, Y.~Liu, R.~Luo,
+  I.~MacCallum, M.~D. MacManes, N.~Maillet, S.~Melnikov, D.~Naquin, Z.~Ning,
+  T.~D. Otto, B.~Paten, O.~S. Paulo, A.~M. Phillippy, F.~Pina-Martins,
+  M.~Place, D.~Przybylski, X.~Qin, C.~Qu, F.~J. Ribeiro, S.~Richards, D.~S.
+  Rokhsar, J.~G. Ruby, S.~Scalabrin, M.~C. Schatz, D.~C. Schwartz,
+  A.~Sergushichev, T.~Sharpe, T.~I. Shaw, J.~Shendure, Y.~Shi, J.~T. Simpson,
+  H.~Song, F.~Tsarev, F.~Vezzi, R.~Vicedomini, B.~M. Vieira, J.~Wang, K.~C.
+  Worley, S.~Yin, S.-M. Yiu, J.~Yuan, G.~Zhang, H.~Zhang, S.~Zhou, and I.~F.
+  Korf.
+\newblock Assemblathon 2: evaluating de novo methods of genome assembly in
+  three vertebrate species.
+\newblock {\em {GigaScience}}, 2(1):10, July 2013.
+
 \bibitem{brown_reference-free_2012}
 C.~T. Brown, A.~Howe, Q.~Zhang, A.~B. Pyrkosz, and T.~H. Brom.
 \newblock A reference-free algorithm for computational normalization of shotgun
@@ -53,6 +74,13 @@ A.~Di~Gregorio, R.~M. Harland, M.~Levine, and E.~S. Casey.
 \newblock Tail morphogenesis in the ascidian, ciona intestinalis, requires
   cooperation between notochord and muscle.
 \newblock {\em Developmental biology}, 244(2):385--95, Apr. 2002.
+
+\bibitem{finnerty_origins_2003}
+J.~R. Finnerty.
+\newblock The origins of axial patterning in the metazoa: how old is bilateral
+  symmetry?
+\newblock {\em The International Journal of Developmental Biology},
+  47(7-8):523--529, 2003.
 
 \bibitem{frazer_vista:_2004}
 K.~A. Frazer, L.~Pachter, A.~Poliakov, E.~M. Rubin, and I.~Dubchak.
@@ -109,11 +137,25 @@ K.~Hotta, H.~Takahashi, a.~Erives, M.~Levine, and N.~Satoh.
 \newblock {\em Development, growth \& differentiation}, 41(6):657--64, Dec.
   1999.
 
+\bibitem{howe_tackling_2014}
+A.~C. Howe, J.~K. Jansson, S.~A. Malfatti, S.~G. Tringe, J.~M. Tiedje, and
+  C.~T. Brown.
+\newblock Tackling soil diversity with the assembly of large, complex
+  metagenomes.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  111(13):4904--4909, Apr. 2014.
+
 \bibitem{huber_evolution_2000}
 J.~L. Huber, K.~B. da~Silva, W.~R. Bates, and B.~J. Swalla.
 \newblock The evolution of anural larvae in molgulid ascidians.
 \newblock {\em Seminars in cell \& developmental biology}, 11(6):419--26, Dec.
   2000.
+
+\bibitem{ikuta_organization_2005}
+T.~Ikuta and H.~Saiga.
+\newblock Organization of hox genes in ascidians: present, past, and future.
+\newblock {\em Developmental Dynamics: An Official Publication of the American
+  Association of Anatomists}, 233(2):382--389, June 2005.
 
 \bibitem{ikuta_ciona_2004}
 T.~Ikuta, N.~Yoshida, N.~Satoh, and H.~Saiga.
@@ -169,6 +211,12 @@ K.~Katoh and H.~Toh.
   number of unaligned sequences.
 \newblock {\em Bioinformatics (Oxford, England)}, 23(3):372--374, Feb. 2007.
 
+\bibitem{keller_mechanisms_2000}
+R.~Keller, L.~Davidson, a.~Edlund, T.~Elul, M.~Ezin, D.~Shook, and P.~Skoglund.
+\newblock Mechanisms of convergence and extension by cell intercalation.
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 355(1399):897--922, July 2000.
+
 \bibitem{kobayashi_differential_2013}
 K.~Kobayashi, L.~Yamada, and N.~Satoh.
 \newblock Differential gene expression in notochord and nerve cord fate
@@ -182,12 +230,24 @@ M.~J. Kourakis, W.~Reeves, E.~Newman-Smith, B.~Maury, S.~Abdul-Wajid, and W.~C.
   in the notochord of the ascidian ciona.
 \newblock {\em Developmental Biology}, 395(1):120--130, Nov. 2014.
 
+\bibitem{kristen_a._hadfield_multiple_1995}
+B.~J.~S. Kristen A.~Hadfield.
+\newblock Multiple origins of anural development in ascidians inferred from
+  {rDNA} sequences.
+\newblock 40(4):413--427, 1995.
+
 \bibitem{kugler_evolutionary_2011}
 J.~E. Kugler, P.~Kerner, J.-M. Bouquet, D.~Jiang, and A.~Di~Gregorio.
 \newblock Evolutionary changes in the notochord genetic toolkit: a comparative
   analysis of notochord genes in the ascidian ciona and the larvacean
   oikopleura.
 \newblock {\em {BMC} evolutionary biology}, 11(1):21, Jan. 2011.
+
+\bibitem{laird_chromatid_1971}
+C.~D. Laird.
+\newblock Chromatid structure: relationship between {DNA} content and
+  nucleotide sequence diversity.
+\newblock {\em Chromosoma}, 32(4):378--406, Dec. 1971.
 
 \bibitem{langmead_fast_2012}
 B.~Langmead and S.~L. Salzberg.
@@ -258,6 +318,11 @@ C.~Mayor, M.~Brudno, J.~R. Schwartz, A.~Poliakov, E.~M. Rubin, K.~A. Frazer,
 \newblock {VISTA} : visualizing global {DNA} sequence alignments of arbitrary
   length.
 \newblock {\em Bioinformatics}, 16(11):1046--1047, Nov. 2000.
+
+\bibitem{mcginnis_homeobox_1992}
+W.~McGinnis and R.~Krumlauf.
+\newblock Homeobox genes and axial patterning.
+\newblock {\em Cell}, 68(2):283--302, Jan. 1992.
 
 \bibitem{minokawa_binary_2001}
 T.~Minokawa, K.~Yagi, K.~W. Makabe, and H.~Nishida.
@@ -344,6 +409,11 @@ N.~Satoh and M.~Levine.
 \newblock Surfing with the tunicates into the post-genome era.
 \newblock {\em Genes \& development}, 19(20):2407--11, Oct. 2005.
 
+\bibitem{satoh_ciona_2003}
+N.~Satoh, Y.~Satou, B.~Davidson, and M.~Levine.
+\newblock Ciona intestinalis: an emerging model for whole-genome analyses.
+\newblock {\em Trends in genetics : {TIG}}, 19(7):376--81, July 2003.
+
 \bibitem{satou_improved_2008}
 Y.~Satou, K.~Mineta, M.~Ogasawara, Y.~Sasakura, E.~Shoguchi, K.~Ueno,
   L.~Yamada, J.~Matsumoto, J.~Wasserscheid, K.~Dewar, G.~B. Wiley, S.~L.
@@ -369,6 +439,12 @@ E.~M. Schwarz, P.~K. Korhonen, B.~E. Campbell, N.~D. Young, A.~R. Jex,
   haemonchus contortus.
 \newblock {\em Genome Biology}, 14(8):R89, Aug. 2013.
 
+\bibitem{simmen_gene_1998}
+M.~W. Simmen, S.~Leitgeb, V.~H. Clark, S.~J. Jones, and A.~Bird.
+\newblock Gene number in an invertebrate chordate, ciona intestinalis.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 95(8):4437--4440, Apr. 1998.
+
 \bibitem{siok_biological_2004}
 W.~T. Siok, C.~A. Perfetti, Z.~Jin, and L.~H. Tan.
 \newblock Biological abnormality of impaired reading is constrained by culture.
@@ -392,6 +468,21 @@ D.~L. Stemple.
 \newblock Structure and function of the notochord: an essential organ for
   chordate development.
 \newblock {\em Development (Cambridge, England)}, 132(11):2503--12, June 2005.
+
+\bibitem{stolfi_divergent_2014}
+A.~Stolfi, E.~K. Lowe, C.~Racioppi, F.~Ristoratore, C.~T. Brown, B.~J. Swalla,
+  and L.~Christiaen.
+\newblock Divergent mechanisms regulate conserved cardiopharyngeal development
+  and gene expression in distantly related ascidians.
+\newblock {\em {eLife}}, 3:e03728, 2014.
+
+\bibitem{stolfi_guidelines_2014}
+A.~Stolfi, Y.~Sasakura, D.~Chalopin, Y.~Satou, L.~Christiaen, C.~Dantec,
+  T.~Endo, M.~Naville, H.~Nishida, B.~J. Swalla, J.-N. Volff, A.~Voskoboynik,
+  D.~Dauga, and P.~Lemaire.
+\newblock Guidelines for the nomenclature of genetic elements in tunicate
+  genomes.
+\newblock {\em Genesis (New York, N.Y.: 2000)}, Sept. 2014.
 
 \bibitem{swalla_mechanisms_1993}
 B.~J. Swalla.
