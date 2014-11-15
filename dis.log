@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 NOV 2014 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 NOV 2014 09:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -633,8 +633,19 @@ File: figures/adults.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/adults.pdf used on input line 9.
 (pdftex.def)             Requested size: 196.73451pt x 181.17642pt.
 Missing character: There is no × in font cmr12!
- [32] [33 <./figures/adults.pdf>] [34]
-<figures/genome_table_1.pdf, id=758, 521.71451pt x 75.97083pt>
+ [32] [33 <./figures/adults.pdf>]
+Overfull \hbox (137.15224pt too wide) in paragraph at lines 21--22
+\OT1/cmr/m/n/12 mocc[]hox[]aa.fa, mocu[]hox[]aa.fa, and moxi[]hox[]aa.fa, which
+ are lo-cated at https://github.com/elijahlowe/eli[]last[]rodeo-
+ []
+
+
+Overfull \hbox (65.04648pt too wide) in paragraph at lines 21--22
+\OT1/cmr/m/n/12 ing MAFFT ver-sion 7 on-line rough tree pro-gram at http://maff
+t.cbrc.jp/alignment/server/clustering.html
+ []
+
+[34] <figures/genome_table_1.pdf, id=758, 521.71451pt x 75.97083pt>
 File: figures/genome_table_1.pdf Graphic file (type pdf)
 
 <use figures/genome_table_1.pdf>
@@ -652,67 +663,67 @@ Package pdftex.def Info: figures/Hox12_13.pdf used on input line 37.
 File: figures/hox.pdf Graphic file (type pdf)
 
 <use figures/hox.pdf>
-Package pdftex.def Info: figures/hox.pdf used on input line 50.
+Package pdftex.def Info: figures/hox.pdf used on input line 52.
 (pdftex.def)             Requested size: 461.26784pt x 193.77164pt.
- [38 <./figures/hox.pdf>]) (./tail.tex [39] [40]
+ [38] [39 <./figures/hox.pdf>]) (./tail.tex [40] [41]
 Chapter 5.
-[41
+[42
 
 ]
 
-Package natbib Warning: Citation `Satoh' on page 42 undefined on input line 13.
+Package natbib Warning: Citation `Satoh' on page 43 undefined on input line 13.
 
 
 
-Package natbib Warning: Citation `1994' on page 42 undefined on input line 13.
+Package natbib Warning: Citation `1994' on page 43 undefined on input line 13.
 
 
-Package natbib Warning: Citation `1999' on page 42 undefined on input line 13.
+Package natbib Warning: Citation `1999' on page 43 undefined on input line 13.
 
-[42] [43] [44] <figures/bra_grn.pdf, id=1367, 417.56pt x 419.5675pt>
+[43] [44] [45] <figures/bra_grn.pdf, id=1371, 417.56pt x 419.5675pt>
 File: figures/bra_grn.pdf Graphic file (type pdf)
 
 <use figures/bra_grn.pdf>
 Package pdftex.def Info: figures/bra_grn.pdf used on input line 46.
 (pdftex.def)             Requested size: 229.65869pt x 230.76283pt.
 
-<figures/prickle.pdf, id=1368, 206.7725pt x 204.765pt>
+<figures/prickle.pdf, id=1372, 206.7725pt x 204.765pt>
 File: figures/prickle.pdf Graphic file (type pdf)
 
 <use figures/prickle.pdf>
 Package pdftex.def Info: figures/prickle.pdf used on input line 53.
 (pdftex.def)             Requested size: 113.72522pt x 112.62108pt.
-) (./conc.tex [45] [46 <./figures/bra_grn.pdf> <./figures/prickle.pdf>] [47]
+) (./conc.tex [46] [47 <./figures/bra_grn.pdf> <./figures/prickle.pdf>] [48]
 Chapter 6.
-) [48
+) [49
 
-] [49
+] [50
 
-] (./gloss.tex) (./dis.bbl [50
+] (./gloss.tex) (./dis.bbl [51
 
 ]
 Missing character: There is no Ã in font cmr12!
- [51
+ [52
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ± in font cmr12!
- [52] [53] [54] [55]
+ [53] [54] [55] [56]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [56]
-[57] [58]
+ [57]
+[58] [59]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [59])
+ [60])
 
 Package natbib Warning: There were undefined citations.
 
-[60] (./dis.aux)
+[61] (./dis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -738,10 +749,10 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (70 pages, 8059868 bytes).
+Output written on dis.pdf (71 pages, 8061133 bytes).
 PDF statistics:
- 1509 PDF objects out of 1728 (max. 8388607)
- 887 compressed objects within 9 object streams
+ 1512 PDF objects out of 1728 (max. 8388607)
+ 889 compressed objects within 9 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
