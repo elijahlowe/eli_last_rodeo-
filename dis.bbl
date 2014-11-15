@@ -110,6 +110,12 @@ K.~A. Frazer, L.~Pachter, A.~Poliakov, E.~M. Rubin, and I.~Dubchak.
 \newblock {\em Nucleic Acids Research}, 32(Web Server issue):W273--279, July
   2004.
 
+\bibitem{gehring_homeodomain-dna_1994}
+W.~J. Gehring, Y.~Q. Qian, M.~Billeter, K.~Furukubo-Tokunaga, A.~F. Schier,
+  D.~Resendez-Perez, M.~Affolter, G.~Otting, and K.~Wüthrich.
+\newblock Homeodomain-{DNA} recognition.
+\newblock {\em Cell}, 78(2):211--223, July 1994.
+
 \bibitem{glenn_field_2011}
 T.~C. Glenn.
 \newblock Field guide to next-generation {DNA} sequencers.
@@ -186,11 +192,23 @@ J.~L. Huber, K.~B. da~Silva, W.~R. Bates, and B.~J. Swalla.
 \newblock {\em Seminars in cell \& developmental biology}, 11(6):419--26, Dec.
   2000.
 
+\bibitem{hudson_divergent_2011}
+C.~Hudson, M.~Ba, C.~Rouvière, and H.~Yasuo.
+\newblock Divergent mechanisms specify chordate motoneurons: evidence from
+  ascidians.
+\newblock {\em Development (Cambridge, England)}, 138(8):1643--52, Apr. 2011.
+
 \bibitem{ikuta_organization_2005}
 T.~Ikuta and H.~Saiga.
 \newblock Organization of hox genes in ascidians: present, past, and future.
 \newblock {\em Developmental Dynamics: An Official Publication of the American
   Association of Anatomists}, 233(2):382--389, June 2005.
+
+\bibitem{ikuta_limited_2010}
+T.~Ikuta, N.~Satoh, and H.~Saiga.
+\newblock Limited functions of hox genes in the larval development of the
+  ascidian ciona intestinalis.
+\newblock {\em Development (Cambridge, England)}, 137(9):1505--1513, May 2010.
 
 \bibitem{ikuta_ciona_2004}
 T.~Ikuta, N.~Yoshida, N.~Satoh, and H.~Saiga.
@@ -360,6 +378,12 @@ C.~Mayor, M.~Brudno, J.~R. Schwartz, A.~Poliakov, E.~M. Rubin, K.~A. Frazer,
 \newblock {VISTA} : visualizing global {DNA} sequence alignments of arbitrary
   length.
 \newblock {\em Bioinformatics}, 16(11):1046--1047, Nov. 2000.
+
+\bibitem{mcginnis_homologous_1984}
+W.~McGinnis, R.~L. Garber, J.~Wirz, A.~Kuroiwa, and W.~J. Gehring.
+\newblock A homologous protein-coding sequence in drosophila homeotic genes and
+  its conservation in other metazoans.
+\newblock {\em Cell}, 37(2):403--408, June 1984.
 
 \bibitem{mcginnis_homeobox_1992}
 W.~McGinnis and R.~Krumlauf.

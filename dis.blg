@@ -12,45 +12,45 @@ Warning--I didn't find a database entry for "Satoh"
 Warning--I didn't find a database entry for "1994"
 Warning--I didn't find a database entry for "1999"
 Warning--empty institution in brown_reference-free_2012
-You've used 102 entries,
+You've used 106 entries,
             2118 wiz_defined-function locations,
-            1075 strings with 31063 characters,
-and the built_in function-call counts, 49374 in all, are:
-= -- 4482
-> -- 3874
+            1095 strings with 31901 characters,
+and the built_in function-call counts, 51137 in all, are:
+= -- 4650
+> -- 3991
 < -- 2
-+ -- 1553
-- -- 1434
-* -- 4819
-:= -- 8635
-add.period$ -- 306
-call.type$ -- 102
-change.case$ -- 1022
++ -- 1600
+- -- 1476
+* -- 4989
+:= -- 8935
+add.period$ -- 318
+call.type$ -- 106
+change.case$ -- 1055
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 1131
-empty$ -- 2691
-format.name$ -- 1434
-if$ -- 9350
+cite$ -- 107
+duplicate$ -- 1175
+empty$ -- 2801
+format.name$ -- 1476
+if$ -- 9691
 int.to.chr$ -- 0
-int.to.str$ -- 102
-missing$ -- 102
-newline$ -- 513
-num.names$ -- 204
-pop$ -- 831
+int.to.str$ -- 106
+missing$ -- 106
+newline$ -- 533
+num.names$ -- 212
+pop$ -- 856
 preamble$ -- 1
-purify$ -- 921
+purify$ -- 950
 quote$ -- 0
-skip$ -- 748
+skip$ -- 776
 stack$ -- 0
-substring$ -- 2874
-swap$ -- 113
+substring$ -- 3001
+swap$ -- 117
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 406
+type$ -- 422
 warning$ -- 1
-while$ -- 392
-width$ -- 105
-write$ -- 1121
+while$ -- 408
+width$ -- 109
+write$ -- 1165
 (There was 1 error message)
