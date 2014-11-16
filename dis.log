@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 NOV 2014 12:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 NOV 2014 14:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,9 +270,6 @@ LaTeX Warning: Label `fig:hox12' multiply defined.
 
 
 LaTeX Warning: Label `fig:hox12' multiply defined.
-
-
-LaTeX Warning: Label `fig:occihox10' multiply defined.
 
 )
 \openout1 = `dis.aux'.
@@ -765,7 +762,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5446 strings out of 493117
  85897 string characters out of 6135433
- 147230 words of memory out of 5000000
+ 147241 words of memory out of 5000000
  8773 multiletter control sequences out of 15000+600000
  9465 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
