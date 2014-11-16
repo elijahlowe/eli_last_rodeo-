@@ -45,6 +45,12 @@ M.~Brudno, C.~B. Do, G.~M. Cooper, M.~F. Kim, E.~Davydov, {NISC Comparative
   alignment of genomic {DNA}.
 \newblock {\em Genome Research}, 13(4):721--731, Apr. 2003.
 
+\bibitem{caracciolo_identification_2000}
+A.~Caracciolo, A.~Di~Gregorio, F.~Aniello, R.~Di~Lauro, and M.~Branno.
+\newblock Identification and developmental expression of three distal-less
+  homeobox containing genes in the ascidian ciona intestinalis.
+\newblock {\em Mechanisms of Development}, 99(1–2):173--176, Dec. 2000.
+
 \bibitem{conklin_organization_1905}
 E.~G. Conklin.
 \newblock {\em The organization and cell-lineage of the ascidian egg}.
@@ -361,6 +367,11 @@ M.~E. Maliska and B.~J. Swalla.
   roscovita clade of molgulids.
 \newblock {\em The Biological Bulletin}, 219(3):277--282, Dec. 2010.
 
+\bibitem{mallo_regulation_2013}
+M.~Mallo and C.~R. Alonso.
+\newblock The regulation of hox gene expression during animal.
+\newblock {\em Development}, 140(19):3951--3963, Oct. 2013.
+
 \bibitem{marioni_rna-seq:_2008}
 J.~C. Marioni, C.~E. Mason, S.~M. Mane, M.~Stephens, and Y.~Gilad.
 \newblock {RNA}-seq: An assessment of technical reproducibility and comparison
@@ -469,6 +480,12 @@ M.~A. Quail, M.~Smith, P.~Coupland, T.~D. Otto, S.~R. Harris, T.~R. Connor,
   ion torrent, pacific biosciences and illumina {MiSeq} sequencers.
 \newblock {\em {BMC} genomics}, 13:341, 2012.
 
+\bibitem{rossomando_morphogenesis:_1992}
+E.~F. Rossomando and S.~Alexander.
+\newblock {\em Morphogenesis: An Analysis of the Development of Biological
+  Form: An Analysis of the Development of Biological Form}.
+\newblock {CRC} Press, Apr. 1992.
+
 \bibitem{satoh_ascidian_2001}
 N.~Satoh.
 \newblock Ascidian embryos as a model system to analyze expression and function
@@ -516,6 +533,14 @@ E.~M. Schwarz, P.~K. Korhonen, B.~E. Campbell, N.~D. Young, A.~R. Jex,
 \newblock The genome and developmental transcriptome of the strongylid nematode
   haemonchus contortus.
 \newblock {\em Genome Biology}, 14(8):R89, Aug. 2013.
+
+\bibitem{seo_hox_2004}
+H.-C. Seo, R.~B. Edvardsen, A.~D. Maeland, M.~Bjordal, M.~F. Jensen, A.~Hansen,
+  M.~Flaat, J.~Weissenbach, H.~Lehrach, P.~Wincker, R.~Reinhardt, and
+  D.~Chourrout.
+\newblock Hox cluster disintegration with persistent anteroposterior order of
+  expression in oikopleura dioica.
+\newblock {\em Nature}, 431(7004):67--71, Sept. 2004.
 
 \bibitem{seo_miniature_2001}
 H.-C. Seo, M.~Kube, R.~B. Edvardsen, M.~F. Jensen, A.~Beck, E.~Spriet,
@@ -626,6 +651,12 @@ G.~Tsagkogeorga, X.~Turon, R.~R. Hopcroft, M.-K. Tilak, T.~Feldstein,
 \newblock An updated 18s {rRNA} phylogeny of tunicates based on mixture and
   secondary structure models.
 \newblock {\em {BMC} Evolutionary Biology}, 9(1):187, Aug. 2009.
+
+\bibitem{vachon_homeotic_1992}
+G.~Vachon, B.~Cohen, C.~Pfeifle, M.~E. McGuffin, J.~Botas, and S.~M. Cohen.
+\newblock Homeotic genes of the bithorax complex repress limb development in
+  the abdomen of the drosophila embryo through the target gene distal-less.
+\newblock {\em Cell}, 71(3):437--450, Oct. 1992.
 
 \bibitem{van_belleghem_novo_2012}
 S.~M. Van~Belleghem, D.~Roelofs, J.~Van~Houdt, and F.~Hendrickx.

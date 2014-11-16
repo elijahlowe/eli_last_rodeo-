@@ -19,14 +19,14 @@
 \contentsline {subsection}{\numberline {3.3.2}Assembly statistics varied by preprocessing approach and assembler}{19}
 \contentsline {subsection}{\numberline {3.3.3}Trinity assemblies include more low-abundance k-mers than Oases assemblies}{19}
 \contentsline {subsection}{\numberline {3.3.4}Read mapping shows high inclusion of reads in the assembled transcriptomes}{21}
-\contentsline {subsection}{\numberline {3.3.5}All assemblies recovered transcripts with high accuracy but varied completeness}{21}
+\contentsline {subsection}{\numberline {3.3.5}All assemblies recovered transcripts with high accuracy but varied completeness}{22}
 \contentsline {subsection}{\numberline {3.3.6}Both unnormalized and normalized assemblies recovered many of the same transcripts}{24}
 \contentsline {subsection}{\numberline {3.3.7}Homology search against the \textit {Ciona} proteome shows similar recovery of ascidian genes across assemblies}{24}
 \contentsline {subsection}{\numberline {3.3.8}CEGMA analysis shows high recovery of genes}{26}
 \contentsline {section}{\numberline {3.4}Discussion}{26}
 \contentsline {subsection}{\numberline {3.4.1}Transcriptome assembly accurately recovers known transcripts and many genes}{26}
 \contentsline {subsection}{\numberline {3.4.2}Digital normalization eases assembly without strongly affecting assembly content}{27}
-\contentsline {subsection}{\numberline {3.4.3}Trinity assemblies are more sensitive to low-abundance k-mers but contain no new conserved genes}{28}
+\contentsline {subsection}{\numberline {3.4.3}Trinity assemblies are more sensitive to low-abundance k-mers but contain no new conserved genes}{29}
 \contentsline {section}{\numberline {3.5}Conclusions}{29}
 \contentsline {chapter}{\numberline {Chapter 4}Genome assembly and characterization}{31}
 \contentsline {section}{\numberline {4.1}Introduction}{31}
@@ -37,8 +37,9 @@
 \contentsline {section}{\numberline {4.3}Results}{35}
 \contentsline {subsection}{\numberline {4.3.1}Genome assemblies assessment}{35}
 \contentsline {subsection}{\numberline {4.3.2}Gene complexes}{36}
-\contentsline {subsection}{\numberline {4.3.3}Divergence of GRN}{38}
-\contentsline {section}{\numberline {4.4}Discussion and Conculsion}{40}
+\contentsline {subsection}{\numberline {4.3.3}Divergence of GRN}{39}
+\contentsline {section}{\numberline {4.4}Discussion}{40}
+\contentsline {section}{\numberline {4.5}Conculsion}{41}
 \contentsline {chapter}{\numberline {Chapter 5}Tail loss?}{42}
 \contentsline {section}{\numberline {5.1}Introduction}{42}
 \contentsline {section}{\numberline {5.2}Methods}{44}

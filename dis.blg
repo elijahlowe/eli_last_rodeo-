@@ -7,50 +7,50 @@ White space in argument---line 175 of file dis.aux
 I'm skipping whatever remains of this command
 The style file: abbrv.bst
 Database file #1: MyLibrary.bib
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Satoh"
 Warning--I didn't find a database entry for "1994"
 Warning--I didn't find a database entry for "1999"
+Warning--I didn't find a database entry for ""
 Warning--empty institution in brown_reference-free_2012
-You've used 106 entries,
+You've used 111 entries,
             2118 wiz_defined-function locations,
-            1095 strings with 31901 characters,
-and the built_in function-call counts, 51137 in all, are:
-= -- 4650
-> -- 3991
+            1119 strings with 33152 characters,
+and the built_in function-call counts, 53259 in all, are:
+= -- 4846
+> -- 4141
 < -- 2
-+ -- 1600
-- -- 1476
-* -- 4989
-:= -- 8935
-add.period$ -- 318
-call.type$ -- 106
-change.case$ -- 1055
++ -- 1660
+- -- 1530
+* -- 5186
+:= -- 9301
+add.period$ -- 333
+call.type$ -- 111
+change.case$ -- 1096
 chr.to.int$ -- 0
-cite$ -- 107
-duplicate$ -- 1175
-empty$ -- 2801
-format.name$ -- 1476
-if$ -- 9691
+cite$ -- 112
+duplicate$ -- 1231
+empty$ -- 2931
+format.name$ -- 1530
+if$ -- 10101
 int.to.chr$ -- 0
-int.to.str$ -- 106
-missing$ -- 106
-newline$ -- 533
-num.names$ -- 212
-pop$ -- 856
+int.to.str$ -- 111
+missing$ -- 112
+newline$ -- 558
+num.names$ -- 222
+pop$ -- 894
 preamble$ -- 1
-purify$ -- 950
+purify$ -- 987
 quote$ -- 0
-skip$ -- 776
+skip$ -- 812
 stack$ -- 0
-substring$ -- 3001
-swap$ -- 117
+substring$ -- 3127
+swap$ -- 122
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 422
+type$ -- 440
 warning$ -- 1
-while$ -- 408
-width$ -- 109
-write$ -- 1165
+while$ -- 426
+width$ -- 114
+write$ -- 1219
 (There was 1 error message)
