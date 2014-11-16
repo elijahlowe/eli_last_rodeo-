@@ -8,3 +8,4 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces \textbf {Genome assembly statistics.} The contig N50 length, mean contig length, total number of contigs, total number of base pairs and CEGMA scores were collected for each draft assembly. The CEGMA scores is a metric of completeness measured against highly Conserved eukaryotic genes. Alignments of 70\% or greater of the protein length are called complete (C\textsuperscript {1}) and all other statistically significant alignments are called partial (P\textsuperscript {2}).\relax }}{36}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }

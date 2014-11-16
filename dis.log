@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 NOV 2014 00:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 NOV 2014 12:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,6 +271,9 @@ LaTeX Warning: Label `fig:hox12' multiply defined.
 
 LaTeX Warning: Label `fig:hox12' multiply defined.
 
+
+LaTeX Warning: Label `fig:occihox10' multiply defined.
+
 )
 \openout1 = `dis.aux'.
 
@@ -399,7 +402,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [4] (./dis.toc [5
 
 
-])
+]
+Overfull \hbox (0.29933pt too wide) detected at line 54
+\OT1/cmr/bx/n/12 Appendix A 
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `dis.toc'.
 
@@ -685,29 +693,58 @@ Chapter 6.
 
 ] [50
 
-] (./gloss.tex) (./dis.bbl [51
+] (./gloss.tex) (./supp_figs.tex [51
 
 ]
+Appendix A.
+<figures/occi_hox2.png, id=1454, 608.2725pt x 162.6075pt>
+File: figures/occi_hox2.png Graphic file (type png)
+
+<use figures/occi_hox2.png>
+Package pdftex.def Info: figures/occi_hox2.png used on input line 4.
+(pdftex.def)             Requested size: 456.20326pt x 121.95532pt.
+
+<figures/hox_alignment.pdf, id=1455, 611.28375pt x 682.55pt>
+File: figures/hox_alignment.pdf Graphic file (type pdf)
+
+<use figures/hox_alignment.pdf>
+Package pdftex.def Info: figures/hox_alignment.pdf used on input line 11.
+(pdftex.def)             Requested size: 519.59364pt x 580.17024pt.
+
+Overfull \hbox (49.83862pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+<figures/Occi_hox10.pdf, id=1456, 445.665pt x 496.85625pt>
+File: figures/Occi_hox10.pdf Graphic file (type pdf)
+
+<use figures/Occi_hox10.pdf>
+Package pdftex.def Info: figures/Occi_hox10.pdf used on input line 18.
+(pdftex.def)             Requested size: 423.37935pt x 472.01076pt.
+) (./dis.bbl [52
+
+ <./figures/occi_hox2.png>]
+[53 <./figures/hox_alignment.pdf>] [54 <./figures/Occi_hox10.pdf>]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [52
+ [55
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ± in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
- [53]
+
+[56]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¨ in font cmr12!
- [54] [55] [56] [57]
+ [57] [58] [59] [60]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-[58] [59] [60]
+ [61] [62] [63]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no â in font cmr12!
@@ -717,7 +754,7 @@ Missing character: There is no “ in font cmr12!
 
 Package natbib Warning: There were undefined citations.
 
-[61] (./dis.aux)
+[64] (./dis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -726,10 +763,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5425 strings out of 493117
- 85438 string characters out of 6135433
- 147208 words of memory out of 5000000
- 8758 multiletter control sequences out of 15000+600000
+ 5446 strings out of 493117
+ 85897 string characters out of 6135433
+ 147230 words of memory out of 5000000
+ 8773 multiletter control sequences out of 15000+600000
  9465 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,10n,47p,3355b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -743,10 +780,10 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dis.pdf (71 pages, 8064735 bytes).
+Output written on dis.pdf (74 pages, 8236259 bytes).
 PDF statistics:
- 1512 PDF objects out of 1728 (max. 8388607)
- 889 compressed objects within 9 object streams
+ 1603 PDF objects out of 1728 (max. 8388607)
+ 955 compressed objects within 10 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
