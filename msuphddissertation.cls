@@ -22,6 +22,8 @@
 \RequirePackage[margin=1in]{geometry}
 \RequirePackage{pdflscape}
 \RequirePackage{rotating}
+\RequirePackage{multirow}
+\RequirePackage{sidecap}
 
 % Change to double spacing as defined by MS Word
 % Redefine the \doublspacing command
@@ -411,4 +413,5 @@
 \pagestyle{empty} 
 
 \newcommand{\mytilde}{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}%reformat tilde
+
  
