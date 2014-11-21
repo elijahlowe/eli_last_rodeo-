@@ -24,6 +24,7 @@
 \RequirePackage{rotating}
 \RequirePackage{multirow}
 \RequirePackage{sidecap}
+\RequirePackage{float}
 
 % Change to double spacing as defined by MS Word
 % Redefine the \doublspacing command
