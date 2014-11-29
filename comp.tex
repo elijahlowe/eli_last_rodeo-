@@ -32,7 +32,7 @@ Digital normalization (diginorm) is a technique that down samples reads from hig
 \begin{table}[ht]
 \centering
 \includegraphics[scale=1.0]{manuscript/Table1.pdf}
-\caption{\textbf{Digitally normalized reads.} The number of reads sequenced before and after digital normalization are shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit{M. occulta} had approximately \mytilde237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit{M. oculata} had 150 million reads and reduced by 77\% to \mytilde50 million reads. }
+\caption{\textbf{Digitally normalized reads.} The number of reads sequenced before and after digital normalization is shown for each lane of sequencing. The percentage of total reads kept after digital normalization is shown in bold. \textit{M. occulta} had approximately \mytilde237 million reads and was reduced to 91 million reads, a 60\% reduction. \textit{M. oculata} had 150 million reads and was reduced by 77\% to \mytilde50 million reads. }
 \label{table:Table1.pdf}
 \end{table}
 
@@ -108,7 +108,7 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 	\subfloat[\textit{M. oculata}\label{subfig-2:figure_3_mocu_mapping}]{%
 	\includegraphics[width=0.45\textwidth]{manuscript/figure_3_mocu_mapping.pdf}
 	}
-	\caption{\textbf{Read mapping.} Unnormalized reads were mapped back to each of the assemblies to determine the inclusion of reads in the assembly. \textit{M. occulta} first round of gastrulation reads (f+3), showed the lowest mapping quality for all assemblies, with the lowest being raw Oases at 48.57\%. \textit{M. occulta} f+3 is the only case were mapping is less than 74\% and the only case where DN Trinity mapped more reads than Raw Trinity. ~\ref{fig:figure_3_mocu_mapping}\textit{M. oculata} unnormalized Oases performed the worst, with Trinity assemble having the best mappings. Trinity assemblies have more mapped reads than Oases for all conditions, with at least 93\% read mapping for both species. Raw Trinity typically mapped slightly more reads than DN, and the opposite occurs for Oases, with DN having more reads mapped to its assembly.  Note that the Y axis starts at 45\%.}
+	\caption{\textbf{Read mapping.} Unnormalized reads were mapped back to each of the assemblies to determine the inclusion of reads in the assembly. \textit{M. occulta} first round of gastrulation reads (f+3), showed the lowest mapping quality for all assemblies, with the lowest being raw Oases at 48.57\%. \textit{M. occulta} f+3 is the only case where mapping is less than 74\% and the only case where DN Trinity mapped more reads than raw Trinity. \textit{M. oculata} unnormalized Oases performed the worst, with the Trinity assembly having the best mappings. Trinity assemblies have more mapped reads than Oases for all conditions, with at least 93\% read mapping for both species. Raw Trinity typically mapped slightly more reads than DN, and the opposite occurs for Oases, with DN having more reads mapped to its assembly.  Note that the Y axis starts at 45\%.}
 	\label{fig:read_mapping}
 \end{figure}
 
@@ -124,7 +124,7 @@ mRNAseq assembly accuracy can be calculated based on known transcripts generated
 	\subfloat[\textit{M. oculata}\label{subfig-2:figure_4_mocuVsknownmolg}]{%
 	\includegraphics[width=0.45\textwidth]{manuscript/figure_4_mocuVsknownmolg.pdf}
 	}
-	\caption{\textbf{Accuracy, completeness and recovery rate against know Molgula sequences.} The NCBI has 178 Molgula sequence in its database. Transcripts were searched against these sequences using BLASTN with a cut-off of e-12. Trinity assemblies performed the best, recovering all known sequences. \textit{M. occulta} unnormalized assembled performed the worst, only recovering 79 (44\%) of the transcripts. \textit{M. occulta} tended to recover fewer of the known transcripts as well.}
+	\caption{\textbf{Accuracy, completeness and recovery rate against know Molgula sequences.} The NCBI has 178 Molgula sequence in its database. Transcripts were searched against these sequences using BLASTN with a cut-off of 1e-12. Trinity assemblies performed the best, recovering all known sequences. The \textit{M. occulta} unnormalized assembly performed the worst, only recovering 79 (44\%) of the transcripts. \textit{M. occulta} tended to recover fewer of the known transcripts as well.}
 	\label{fig:known_molg}
 \end{figure}
      
@@ -145,7 +145,7 @@ We used \textit{Ciona intestinalis} to evaluate the completeness of our transcri
 	\subfloat[\textit{M. oculata}\label{subfig-2:figure_5_mocu_blast_overlap}]{%
 	\includegraphics[width=0.45\textwidth]{manuscript/figure_5_mocu_blast_overlap.pdf}
 	}
-	\caption{\textbf{Gene recovery, raw reads versus normalized.} Gene homologue with \textit{C. intestinalis} via BLAST for \textit{M. occulta} (left) and \textit{M. oculata} (right). Each oval represent the total number of homologs sequences recovered. In both species the Trinity assembler assembled more homologous sequences. There was almost complete overlap in homology for both assemblers and both assembly conditions.}
+	\caption{\textbf{Gene recovery, raw reads versus normalized.} Gene similarity with \textit{C. intestinalis} via BLAST for \textit{M. occulta} (left) and \textit{M. oculata} (right). Each oval represent the total number of putative homologous sequences recovered. In both species the Trinity assembler assembled more homologous sequences. There was almost complete overlap in homology for both assemblers and both assembly conditions.}
 	\label{fig:overlap}
 \end{figure}
      
