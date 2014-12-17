@@ -131,7 +131,6 @@ Tunicates are invertebrate chordates and are the sister group to the vertebrates
 %% following two lines.
 \renewcommand{\appname}{APPENDIX}
 \appendix
-%\input{gloss}
 \input{supp_figs}
 %% To include several appendices, remove the only the "%"
 %% in front of "\appendix".
@@ -160,17 +159,20 @@ Tunicates are invertebrate chordates and are the sister group to the vertebrates
 %% instead of �Bibliography� if that is the convention in your discipline. 
 %% To do so, place your choice in the  empty argument 
 %% of the following command and remove the "%".
-\renewcommand{\bibname}{BIBLIOGRAPHY}
+%\renewcommand{\bibname}{BIBLIOGRAPHY}
 %% The bibliography may be made using BibTeX.
 %% If it's made from scratch,
 %% remove the "%" in front of "\begin{thebibliography}{???}"
 %% replacing the ??? with the appropriate entry and 
 %% remove the "%" in front of "\end{thebibliography}"
-%\begin{thebibliography}{MyLibrary}
+%\begin{thebibliography}%{MyLibrary}
 %%  Enter the bibliography here.
 %\end{thebibliography}
 
-\bibliographystyle{abbrv}
+\bibliographystyle{plain}
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliography}
+\vspace{-1in}
 \bibliography{MyLibrary}
-
+%\end{thebibliography}
 \end{document}

@@ -23,7 +23,7 @@
 \RequirePackage{pdflscape}
 \RequirePackage{rotating}
 \RequirePackage{multirow}
-\RequirePackage{sidecap}
+%\RequirePackage{ccaption}
 \RequirePackage{float}
 
 % Change to double spacing as defined by MS Word
@@ -59,6 +59,7 @@
     \vspace*{.55in}
           \begin{center}%
           \MakeUppercase{\@title}%
+           
            \begin{doublespace}
            
            By

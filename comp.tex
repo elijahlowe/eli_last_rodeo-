@@ -119,8 +119,11 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 \subsection{All assemblies recovered transcripts with high accuracy but varied completeness}
 mRNAseq assembly accuracy can be calculated based on known transcripts generated from longer reads or reference genomes \citep{vijay_challenges_2012,martin_next-generation_2011}. We use Molgulid nucleotide sequences from NCBI to measure accuracy, and we define accuracy as the average BLAST identity score for the best match for each gene recovered \citep{li_sequence_2009}. There are 178 sequences from within the Molgula clade in the NCBI database. With the exception of \textit{M. occulta} unnormalized Oases assembly, all assemblies have hits to at least 113 out of these Molgula sequences (Figure 4). The Trinity assemblies for both species have hits to all 178 sequences. Oases assemblies have hits for more sequences using digital normalized reads, two additional hits for \textit{M. oculata} and 40 additional hits for \textit{M. occulta}. \textit{M. oculata} assemblies hits have high average accuracy in the 90 and 99 percentile for Oases and Trinity, respectively. Completeness is the percentage of a gene, transcript or protein that is recovered. Within the \textit{M. oculata} assemblies, the unnormalized Oases assembly has the lowest average completeness at 36\%, the Trinity assemblies round out at 60\% and the digital normalized Oases assembly has the highest average completeness at 72\%.  (Note that many of the \textit{Molgula} sequences are genomic, which includes intronic regions, so we would expect this to lower the completeness scores.)
 	
-\begin{landscape}
+%\begin{landscape}
+%\begin{lscapenum}
+\msulandscape{}
 \begin{figure}[!H]
+	\begin{center}
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_4_moccVsknownmolg}]{%
 	\includegraphics[width=0.45\textwidth]{manuscript/figure_4_moccVsknownmolg.pdf}
 	}
@@ -130,8 +133,11 @@ mRNAseq assembly accuracy can be calculated based on known transcripts generated
 	}
 	\caption{\textbf{Accuracy, completeness and recovery rate against known Molgula sequences.} The NCBI has 178 Molgula sequence in its database. Transcripts were searched against these sequences using BLASTN with a cut-off of 1e-12. Trinity assemblies performed the best, recovering all known sequences. The \textit{M. occulta} unnormalized assembly performed the worst, only recovering 79 (44\%) of the transcripts. \textit{M. occulta} tended to recover fewer of the known transcripts as well.}
 	\label{fig:known_molg}
+	\end{center}
 \end{figure}
-\end{landscape}
+\endmsulandscape{}
+%\end{lscapenum}
+%\end{landscape}
      
 Of these 178 nucleotide sequences, 8 of them are \textit{M. occulta} sequences and 15 of them are \textit{M. oculata} sequences. All \textit{M. occulta} assemblies recovered all 8 of the NCBI \textit{M. occulta} sequences with a 94\% or greater accuracy. \textit{M. oculata} assemblies recovered \textit{M. oculata} transcripts at a 93\% accuracy as well. \textit{M. occulta} assemblies produced the lowest completeness of the two species, 41\% and 43\% for unnormalized Oases and diginorm Oases respectively, and 75\% for both Trinity assemblies. \textit{M. oculata} assemblies produced more complete transcripts 66, 75, 86, and 83 percent for unnormalized Oases, Diginorm Oases, unnormalized Trinity and Diginorm Trinity respectively.
 
@@ -143,6 +149,7 @@ We evaluated the two diginorm and unnormalized assemblies against one another to
 We used \textit{Ciona intestinalis} to evaluate the completeness of our transcriptomes. \textit{C. intestinalis} has an assembled genome that is well annotated and is the closest available genome to the Molgulids. \textit{C. intestinalis} has a genome of ~160 Mb and contains \mytilde16,000 genes \citep{satoh_surfing_2005}. A total of 13, 835 (86\%) of the \textit{C. intestinalis} proteins found in NCBI had hits in the \textit{M. occulta} transcriptomes (Figure 5), with 2,288 genes (14\%) having no hits due presumably to either lack of expression, high divergence, or loss \textit{M. occulta}. When comparing transcripts excluded by either diginorm or unnormalized reads for all assemblies, the unnormalized read assemblies produced an additional 0.04\% hits to \textit{C. intestinalis} and there was additional 0.03\% for the diginorm assemblies. There was little difference between the assemblies when compared to \textit{C. intestinalis}, with 99\% of the \textit{C. intestinalis} genes being found in all \textit{M. occulta} assemblies (Figure 4a). Eighty-six percent of the \textit{C. intestinalis} proteins had matches in the \textit{M. occulta} and \textit{M. oculata} assemblies with less than 1\% difference in presence between the several assemblies (Figure 4b).
 
 \begin{landscape}
+\msulandscape{}
 \begin{figure}[!H]
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_5_mocc_blast_overlap}]{%
 	\includegraphics[width=0.65\textwidth]{manuscript/figure_5_mocc_blast_overlap.pdf}
@@ -154,6 +161,7 @@ We used \textit{Ciona intestinalis} to evaluate the completeness of our transcri
 	\caption{\textbf{Gene recovery, raw reads versus normalized.} Gene similarity with \textit{C. intestinalis} via BLAST for \textit{M. occulta} (left) and \textit{M. oculata} (right). Each oval represent the total number of putative homologous sequences recovered. In both species the Trinity assembler assembled more homologous sequences. There was almost complete overlap in homology for both assemblers and both assembly conditions.}
 	\label{fig:overlap}
 \end{figure}
+\endmsulandscape{}
 \end{landscape}
 
 We next examined the difference between the unnormalized and digitally normalized assemblies. Transcripts in the unnormalized assembly with BLAST hits to \textit{C. intestinalis} but without hits in diginorm assemblies were extracted, and searched using BLASTN against the diginorm assemblies; we found fragmented versions of these transcripts, suggesting that they were partially assembled.  We then mapped the diginorm reads to the extracted unnormalized transcripts and found that some portions of the transcripts were not covered by the normalized reads. This demonstrates that these transcripts were lost due to a loss of information from the diginorm process.  However, the overall loss was minimal and complemented by an increase in the recovery of other conserved transcripts; this is clearly a direction for further study.
