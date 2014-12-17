@@ -5,6 +5,7 @@ dis.pdf: dis.tex dis.bib background.tex genome.tex litreview.tex tail.tex
 	pdflatex dis
 	bibtex dis
 	pdflatex dis
+	pdflatex dis
 
 clean:
 	rm dis.pdf
