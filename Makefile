@@ -1,6 +1,7 @@
 all: dis.pdf
 
-dis.pdf: dis.tex dis.bib background.tex genome.tex litreview.tex tail.tex
+dis.pdf: dis.tex dis.bib background.tex genome.tex litreview.tex tail.tex\
+	conc.tex
 	pdflatex dis
 	pdflatex dis
 	bibtex dis
