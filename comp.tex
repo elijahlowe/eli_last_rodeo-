@@ -51,14 +51,20 @@ We used standalone BLAST to find reciprocal best hits (RBH) between the eight as
 \section{Results}
 
 \subsection{Digital normalization reduces the resources needed for assembly}
- The \textit{M. oculata} unnormalized read data set assembled with Oases used 44 CPU hours and 85 GB of RAM. The Oases assembly done with the digitally normalized reads took \mytilde22 CPU hours and 21 GB of RAM (Figure~\ref{fig:time_and_memory.pdf}); this includes the time and memory required to run the digital normalization pipeline. \textit{M. occulta} diginorm Oases assembly required over 100 GB of RAM, and the raw read Oases used 300 GB of RAM. The raw read Oases assemblies for both species took twice as long and needed at least three times as much memory when compared to the diginorm reads.
+ The \textit{M. oculata} unnormalized read data set assembled with Oases used 44 CPU hours and 85 GB of RAM. The Oases assembly done with the digitally normalized reads took \mytilde22 CPU hours and 21 GB of RAM (Figure~\ref{subfig-1:figure_1_time}); this includes the time and memory required to run the digital normalization pipeline. \textit{M. occulta} diginorm Oases assembly required over 100 GB of RAM, and the raw read Oases used 300 GB of RAM. The raw read Oases assemblies for both species took twice as long and needed at least three times as much memory when compared to the diginorm reads.
 
-The difference in assembly time and memory between diginorm and raw reads was not as large when using the Trinity assembler. Diginorm completed its assemblies several hours faster than assembling raw reads, \mytilde15 hours compared to \mytilde26 hours for \textit{M. oculata} and \mytilde24 hours compared to \mytilde39 hours for \textit{M. occulta}. \textit{M. oculata} unnormalized reads did not require much more memory than the normalized reads\textemdash 16.8 GB and 15.65 GB, respectively. Diginorm had a larger effect on \textit{M. occulta}, assembling \textit{M. occulta} normalized reads with 23.17 GB of RAM versus 34.14 GB of RAM for the unnormalized reads (Figure~\ref{fig:time_and_memory.pdf}).
+The difference in assembly time and memory between diginorm and raw reads was not as large when using the Trinity assembler. Diginorm completed its assemblies several hours faster than assembling raw reads, \mytilde15 hours compared to \mytilde26 hours for \textit{M. oculata} and \mytilde24 hours compared to \mytilde39 hours for \textit{M. occulta}. \textit{M. oculata} unnormalized reads did not require much more memory than the normalized reads\textemdash 16.8 GB and 15.65 GB, respectively. Diginorm had a larger effect on \textit{M. occulta}, assembling \textit{M. occulta} normalized reads with 23.17 GB of RAM versus 34.14 GB of RAM for the unnormalized reads (Figure~\ref{subfig-2:figure_1_memory}).
 
 \begin{figure}[tbp]
 \centering
-\includegraphics[scale=0.75]{manuscript/figure_1_time_and_memory.pdf}
-\caption{\textbf{Wall time and memory requirements for assemblies.} Wall time (left) in hours to complete the diginorm (DN) and raw read (RAW) assemblies for both species and assemblers. Oases assembled multiple k's, 21 $\leq$ k $\leq$ 35 opposed to Trinity that uses only a single k. This is one reason the assembly times differed. (right) Shows the memory used to assemble each of the transcriptomes. M. oculata (ocu) transcriptomes assemble in less time than M. occulta (occ) because they have fewer lanes of reads to assemble. In all cases diginorm required less time and memory to complete the assembly.}
+\subfloat[\textit{Time to complete assemblies}\label{subfig-1:figure_1_time}]{%
+	\includegraphics[width=0.45\textwidth]{manuscript/figure_1_time.pdf}
+	}
+	\hfill
+	\subfloat[\textit{Memory to complete assemblies}\label{subfig-2:figure_1_memory}]{%
+	\includegraphics[width=0.45\textwidth]{manuscript/figure_1_memory.pdf}
+	}
+\caption{\textbf{Wall time and memory requirements for assemblies.} Wall time (a) in hours to complete the diginorm (DN) and raw read (RAW) assemblies for both species and assemblers. Oases assembled multiple k's, 21 $\leq$ k $\leq$ 35 opposed to Trinity that uses only a single k. This is one reason the assembly times differed. (b) Shows the memory used to assemble each of the transcriptomes. M. oculata (ocu) transcriptomes assemble in less time than M. occulta (occ) because they have fewer lanes of reads to assemble. In all cases diginorm required less time and memory to complete the assembly.}
 \label{fig:time_and_memory.pdf}
 \end{figure}
   
@@ -80,11 +86,11 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 \begin{landscape}
 \begin{figure}[!H]
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_2_Mocc_dist}]{%
-	\includegraphics[width=0.45\textwidth]{manuscript/figure_2_Mocu_dist.pdf}
+	\includegraphics[width=0.65\textwidth]{manuscript/figure_2_Mocc_dist.pdf}
 	}
 	\hfill
 	\subfloat[\textit{M. oculata}\label{subfig-2:figure_2_Mocu_dist}]{%
-	\includegraphics[width=0.45\textwidth]{manuscript/figure_2_Mocu_dist.pdf}
+	\includegraphics[width=0.65\textwidth]{manuscript/figure_2_Mocu_dist.pdf}
 	}
 	\caption{\textbf{K-mer distribution.} The k-mer distribution is shown for each assembler and assembly condition, diginorm (DN) and unnormalized reads. The k-mer distribution is the coverage of a given k-mer verses how many k-mers of that coverage is incorporated in the respective assemblies. Both Oases and Trinity assemblies are shown for (~\ref{subfig-1:figure_2_Mocc_dist}) \textit{M. occulta} k-mer distribution and  (~\ref{subfig-2:figure_2_Mocu_dist}) \textit{M. oculata} k-mer distributions. Trinity had a higher k-mer distribution for both species, reflective of the inclusion of more low abundance reads into the Trinity assemblies.}
 	\label{fig:k-mer_spec}
@@ -105,11 +111,11 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 \begin{landscape}	
 \begin{figure}[!H]
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_3_mocc_mapping}]{%
-	\includegraphics[width=0.45\textwidth]{manuscript/figure_3_mocc_mapping.pdf}
+	\includegraphics[width=0.65\textwidth]{manuscript/figure_3_mocc_mapping.pdf}
 	}
 	\hfill
 	\subfloat[\textit{M. oculata}\label{subfig-2:figure_3_mocu_mapping}]{%
-	\includegraphics[width=0.45\textwidth]{manuscript/figure_3_mocu_mapping.pdf}
+	\includegraphics[width=0.65\textwidth]{manuscript/figure_3_mocu_mapping.pdf}
 	}
 	\caption{\textbf{Read mapping.} Unnormalized reads were mapped back to each of the assemblies to determine the inclusion of reads in the assembly. \textit{M. occulta} first round of gastrulation reads (f+3), showed the lowest mapping quality for all assemblies, with the lowest being raw Oases at 48.57\%. \textit{M. occulta} f+3 is the only case where mapping is less than 74\% and the only case where DN Trinity mapped more reads than raw Trinity. \textit{M. oculata} unnormalized Oases performed the worst, with the Trinity assembly having the best mappings. Trinity assemblies have more mapped reads than Oases for all conditions, with at least 93\% read mapping for both species. Raw Trinity typically mapped slightly more reads than DN, and the opposite occurs for Oases, with DN having more reads mapped to its assembly.  Note that the Y axis starts at 45\%.}
 	\label{fig:read_mapping}
@@ -125,11 +131,11 @@ mRNAseq assembly accuracy can be calculated based on known transcripts generated
 \begin{figure}[!H]
 	\begin{center}
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_4_moccVsknownmolg}]{%
-	\includegraphics[width=0.45\textwidth]{manuscript/figure_4_moccVsknownmolg.pdf}
+	\includegraphics[width=0.67\textwidth]{manuscript/figure_4_moccVsknownmolg.pdf}
 	}
 	\hfill
 	\subfloat[\textit{M. oculata}\label{subfig-2:figure_4_mocuVsknownmolg}]{%
-	\includegraphics[width=0.45\textwidth]{manuscript/figure_4_mocuVsknownmolg.pdf}
+	\includegraphics[width=0.67\textwidth]{manuscript/figure_4_mocuVsknownmolg.pdf}
 	}
 	\caption{\textbf{Accuracy, completeness and recovery rate against known Molgula sequences.} The NCBI has 178 Molgula sequence in its database. Transcripts were searched against these sequences using BLASTN with a cut-off of 1e-12. Trinity assemblies performed the best, recovering all known sequences. The \textit{M. occulta} unnormalized assembly performed the worst, only recovering 79 (44\%) of the transcripts. \textit{M. occulta} tended to recover fewer of the known transcripts as well.}
 	\label{fig:known_molg}
