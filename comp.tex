@@ -1,4 +1,4 @@
-\chapter{Evaluating a lightweight transcriptome assembly pipeline on two closely related ascidian species}\footnotetext{This chapter is in review at PeerJ: Lowe, Swalla, and Brown, 2014 (http://dx.doi.org/10.7287/peerj.preprints.505v1).}
+\chapter{Evaluating a lightweight transcriptome assembly pipeline on two closely related ascidian species}\footnotetext{This chapter is in review at PeerJ: Lowe, Swalla, and Brown, 2014 (\url{http://dx.doi.org/10.7287/peerj.preprints.505v1)}.}
 
 \section{Introduction}
 
@@ -23,7 +23,7 @@ Below is an overview of the steps used for the \textit{de novo} assembly and ann
 	\item Assess transcriptome quality.
 	\item BLAST (gene recovery/identification).
 \end{enumerate}
-Scripts used to run these steps can be found in the following GitHub repository: https://github.com/ged-lab/2014-mrnaseq-cloud
+Scripts used to run these steps can be found in the following GitHub repository: \url{https://github.com/ged-lab/2014-mrnaseq-cloud}
 \subsection{Pre-assembly read trimming and normalization} 
 Low quality bases were trimmed and low quality reads were removed using quality-trim-pe.py found in the scripts directory of the repository. A hard trim is done at a Phred quality score of 33 and reads less than 30 base pairs in length are discarded. This process creates a paired and singleton fastq file for each library because of the removal of low quality reads. The filtering of reads allows for better assembly and better mapping, although it may also reduce sensitivity to low-expressed transcripts \citep{lohse_robina:_2012, macmanes_optimal_2014}. The reads were initially 75 bp long, and the average base pair (bp) length was 63 bp after quality trimming and filtering. After quality trimming reads were either directly assembled, or first preprocessed with digital normalization and then assembled. 
 
@@ -83,7 +83,7 @@ Trinity produces 6.8k (7.6\%) more transcripts than Oases for \textit{M. occulta
 \subsection{Trinity assemblies include more low-abundance k-mers than Oases assemblies}
 We next examined the k-mer spectrum of the assembled transcripts using k-mer abundances from the digitally normalized reads. The k-mer spectrum is an account of the information content of the reads and can be used to evaluate the ability of the assemblers to recover low-abundance transcripts \citep{pop_genome_2009}.  We first used digital normalization to reduce the reads to a median k-mer coverage of 20, so that the k-mer frequency spectrum peaked at a coverage of 20, and then plotted a cumulative abundance plot of those k-mers shared between the normalized reads and the assemblies. The results, displayed in Figure 2, show that Trinity recovers more low-abundance k-mers.  Also note that between assemblies done with the same assemblers, the k-mer distributions were very similar, suggesting that the k-mer spectrum is reflective of the underlying graph traversal algorithm used by the assembler. In addition the Trinity assemblies included more unique k-mers (Figure~\ref{fig:multiplicity})
 
-\begin{landscape}
+\msulandscape{}
 \begin{figure}[!H]
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_2_Mocc_dist}]{%
 	\includegraphics[width=0.65\textwidth]{manuscript/figure_2_Mocc_dist.pdf}
@@ -95,7 +95,7 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 	\caption{\textbf{K-mer distribution.} The k-mer distribution is shown for each assembler and assembly condition, diginorm (DN) and unnormalized reads. The k-mer distribution is the coverage of a given k-mer verses how many k-mers of that coverage is incorporated in the respective assemblies. Both Oases and Trinity assemblies are shown for (~\ref{subfig-1:figure_2_Mocc_dist}) \textit{M. occulta} k-mer distribution and  (~\ref{subfig-2:figure_2_Mocu_dist}) \textit{M. oculata} k-mer distributions. Trinity had a higher k-mer distribution for both species, reflective of the inclusion of more low abundance reads into the Trinity assemblies.}
 	\label{fig:k-mer_spec}
 \end{figure}
-\end{landscape}
+\endmsulandscape{}
 
 \begin{table}[tbp]
 \centering
@@ -108,7 +108,7 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 	We mapped the quality-filtered reads to the assembled transcriptomes to evaluate their inclusiveness. The F+3 stage of reads from \textit{M. occulta} had the lowest percentage of mapped reads, with the Oases unnormalized assembly mapping only 49\% of the reads, and the Trinity unnormalized assembly mapping 67\% (Figure~\ref{subfig-1:figure_3_mocc_mapping}). This was an isolated case: all other Oases assemblies contained at least 75\% of the reads for each time point and the Trinity assemblies contained at least 93\% of the reads for each time point. Trinity raw read assemblies tended to contain slightly more reads than the diginorm assemblies, while the opposite was true for Oases; however, in no case did the mapping of raw-reads assembly differ from the diginorm assemblies in more than 3\% of their read content.
 \setcounter{subfigure}{0}
 
-\begin{landscape}	
+\msulandscape{}	
 \begin{figure}[!H]
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_3_mocc_mapping}]{%
 	\includegraphics[width=0.65\textwidth]{manuscript/figure_3_mocc_mapping.pdf}
@@ -120,13 +120,11 @@ We next examined the k-mer spectrum of the assembled transcripts using k-mer abu
 	\caption{\textbf{Read mapping.} Unnormalized reads were mapped back to each of the assemblies to determine the inclusion of reads in the assembly. \textit{M. occulta} first round of gastrulation reads (f+3), showed the lowest mapping quality for all assemblies, with the lowest being raw Oases at 48.57\%. \textit{M. occulta} f+3 is the only case where mapping is less than 74\% and the only case where DN Trinity mapped more reads than raw Trinity. \textit{M. oculata} unnormalized Oases performed the worst, with the Trinity assembly having the best mappings. Trinity assemblies have more mapped reads than Oases for all conditions, with at least 93\% read mapping for both species. Raw Trinity typically mapped slightly more reads than DN, and the opposite occurs for Oases, with DN having more reads mapped to its assembly.  Note that the Y axis starts at 45\%.}
 	\label{fig:read_mapping}
 \end{figure}
-\end{landscape}
+\endmsulandscape{}
 
 \subsection{All assemblies recovered transcripts with high accuracy but varied completeness}
 mRNAseq assembly accuracy can be calculated based on known transcripts generated from longer reads or reference genomes \citep{vijay_challenges_2012,martin_next-generation_2011}. We use Molgulid nucleotide sequences from NCBI to measure accuracy, and we define accuracy as the average BLAST identity score for the best match for each gene recovered \citep{li_sequence_2009}. There are 178 sequences from within the Molgula clade in the NCBI database. With the exception of \textit{M. occulta} unnormalized Oases assembly, all assemblies have hits to at least 113 out of these Molgula sequences (Figure 4). The Trinity assemblies for both species have hits to all 178 sequences. Oases assemblies have hits for more sequences using digital normalized reads, two additional hits for \textit{M. oculata} and 40 additional hits for \textit{M. occulta}. \textit{M. oculata} assemblies hits have high average accuracy in the 90 and 99 percentile for Oases and Trinity, respectively. Completeness is the percentage of a gene, transcript or protein that is recovered. Within the \textit{M. oculata} assemblies, the unnormalized Oases assembly has the lowest average completeness at 36\%, the Trinity assemblies round out at 60\% and the digital normalized Oases assembly has the highest average completeness at 72\%.  (Note that many of the \textit{Molgula} sequences are genomic, which includes intronic regions, so we would expect this to lower the completeness scores.)
 	
-%\begin{landscape}
-%\begin{lscapenum}
 \msulandscape{}
 \begin{figure}[!H]
 	\begin{center}
@@ -142,8 +140,6 @@ mRNAseq assembly accuracy can be calculated based on known transcripts generated
 	\end{center}
 \end{figure}
 \endmsulandscape{}
-%\end{lscapenum}
-%\end{landscape}
      
 Of these 178 nucleotide sequences, 8 of them are \textit{M. occulta} sequences and 15 of them are \textit{M. oculata} sequences. All \textit{M. occulta} assemblies recovered all 8 of the NCBI \textit{M. occulta} sequences with a 94\% or greater accuracy. \textit{M. oculata} assemblies recovered \textit{M. oculata} transcripts at a 93\% accuracy as well. \textit{M. occulta} assemblies produced the lowest completeness of the two species, 41\% and 43\% for unnormalized Oases and diginorm Oases respectively, and 75\% for both Trinity assemblies. \textit{M. oculata} assemblies produced more complete transcripts 66, 75, 86, and 83 percent for unnormalized Oases, Diginorm Oases, unnormalized Trinity and Diginorm Trinity respectively.
 
@@ -154,7 +150,7 @@ We evaluated the two diginorm and unnormalized assemblies against one another to
 \subsection{Homology search against the \textit{Ciona} proteome shows similar recovery of ascidian genes across assemblies}
 We used \textit{Ciona intestinalis} to evaluate the completeness of our transcriptomes. \textit{C. intestinalis} has an assembled genome that is well annotated and is the closest available genome to the Molgulids. \textit{C. intestinalis} has a genome of ~160 Mb and contains \mytilde16,000 genes \citep{satoh_surfing_2005}. A total of 13, 835 (86\%) of the \textit{C. intestinalis} proteins found in NCBI had hits in the \textit{M. occulta} transcriptomes (Figure 5), with 2,288 genes (14\%) having no hits due presumably to either lack of expression, high divergence, or loss \textit{M. occulta}. When comparing transcripts excluded by either diginorm or unnormalized reads for all assemblies, the unnormalized read assemblies produced an additional 0.04\% hits to \textit{C. intestinalis} and there was additional 0.03\% for the diginorm assemblies. There was little difference between the assemblies when compared to \textit{C. intestinalis}, with 99\% of the \textit{C. intestinalis} genes being found in all \textit{M. occulta} assemblies (Figure 4a). Eighty-six percent of the \textit{C. intestinalis} proteins had matches in the \textit{M. occulta} and \textit{M. oculata} assemblies with less than 1\% difference in presence between the several assemblies (Figure 4b).
 
-\begin{landscape}
+
 \msulandscape{}
 \begin{figure}[!H]
 	\subfloat[\textit{M. occulta}\label{subfig-1:figure_5_mocc_blast_overlap}]{%
@@ -168,7 +164,7 @@ We used \textit{Ciona intestinalis} to evaluate the completeness of our transcri
 	\label{fig:overlap}
 \end{figure}
 \endmsulandscape{}
-\end{landscape}
+
 
 We next examined the difference between the unnormalized and digitally normalized assemblies. Transcripts in the unnormalized assembly with BLAST hits to \textit{C. intestinalis} but without hits in diginorm assemblies were extracted, and searched using BLASTN against the diginorm assemblies; we found fragmented versions of these transcripts, suggesting that they were partially assembled.  We then mapped the diginorm reads to the extracted unnormalized transcripts and found that some portions of the transcripts were not covered by the normalized reads. This demonstrates that these transcripts were lost due to a loss of information from the diginorm process.  However, the overall loss was minimal and complemented by an increase in the recovery of other conserved transcripts; this is clearly a direction for further study.
 \subsection{CEGMA analysis shows high recovery of genes}

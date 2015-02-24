@@ -13,9 +13,9 @@
 %% Those packages are loaded automatically.
 %% IMPORTANT: Load only those packages you know you will use.
 %% Some packages can cause conflicts resulting in improper formatting.
-\author{Elijah K. Lowe} %% Put your name in full as it is officially recognized by Michigan State University here.
+\author{Elijah Kariem Lowe} %% Put your name in full as it is officially recognized by Michigan State University here.
 \title{Making heads and tails of \textit{Molgula}: Next Generation Sequencing Analysis of Closely related tailed and tail-less Ascidian species} %% Put the title of your dissertation here.
-\unit{Computer Science \& Engineering - Doctor of Philosophy} %% Put the name of your degree granting unit here. The complete
+\unit{Computer Science - Doctor of Philosophy} %% Put the name of your degree granting unit here. The complete
 %% list of these degree granting units can be found at
 %% http://grad.msu.edu/etd/docs/DegreeGrantingUnits.pdf
 
@@ -130,8 +130,14 @@ Tunicates are invertebrate chordates and are the sister group to the vertebrates
 %% If you wish to include one appendix, remove the "%" from the 
 %% following two lines.
 \renewcommand{\appname}{APPENDIX}
+\cleardoublepage\makeatletter\@openrightfalse\makeatother
 \appendix
+%\setcounter{secnumdepth}{-1}
+%\renewcommand\thechapter{}
+%\renewcommand\thesection{\Alph{section}}
+%\renewcommand{\theequation}{A-\arabic{equation}}
 \input{supp_figs}
+\input{contribut}
 %% To include several appendices, remove the only the "%"
 %% in front of "\appendix".
 
@@ -165,14 +171,26 @@ Tunicates are invertebrate chordates and are the sister group to the vertebrates
 %% remove the "%" in front of "\begin{thebibliography}{???}"
 %% replacing the ??? with the appropriate entry and 
 %% remove the "%" in front of "\end{thebibliography}"
-%\begin{thebibliography}%{MyLibrary}
+%\begin{thebibliography}{MyLibrary}
 %%  Enter the bibliography here.
 %\end{thebibliography}
 
-\bibliographystyle{plain}
-\cleardoublepage
-\addcontentsline{toc}{chapter}{Bibliography}
-\vspace{-1in}
+\bibliographystyle{abbrv}
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\vspace{-1in}
+%\renewcommand{\appname}{BIB}
+%\makebibliographycover
+\clearpage
+          \vspace*{\fill}
+          \begin{center}
+          \Huge \textbf{\MakeUppercase{\bibname}}
+            \addcontentsline{toc}{chapter}{\textbf{BIBLIOGRAPHY}
+                    \vspace{\baselineskip}}%
+          \end{center}
+          \vfill
+%\cleardoublepage
+\vspace*{1in}
 \bibliography{MyLibrary}
 %\end{thebibliography}
 \end{document}
